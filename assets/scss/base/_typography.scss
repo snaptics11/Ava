@@ -1,0 +1,99 @@
+/* ==== 
+ --------- (2.02) typography styles start ---------
+ ==== */
+
+// paragraph styles
+p,
+th,
+td,
+li,
+input,
+textarea,
+select,
+label,
+blockquote,
+span {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--theme-color);
+}
+
+.text-xl {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.text-xs {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+// link styles
+a,
+button {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--theme-color);
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+// heading styles
+h1,
+.text-xxl {
+  font-size: 76px;
+  line-height: 96px;
+}
+
+h2 {
+  font-size: 57px;
+  line-height: 68px;
+}
+
+h3 {
+  font-size: 43px;
+  line-height: 54px;
+}
+
+h4 {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  a,
+  span {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+  }
+}
+
+/* ==== 
+ --------- (2.02) typography styles end ---------
+ ==== */

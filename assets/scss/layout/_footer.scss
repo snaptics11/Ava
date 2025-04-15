@@ -1,0 +1,170 @@
+/* ==== 
+ --------- (4.03) footer styles start ---------
+ ==== */
+
+.footer {
+  background-color: black;
+  overflow-x: clip;
+  position: relative;
+  z-index: 1;
+  .footer__thumb {
+    max-height: 560px;
+    overflow-y: clip;
+
+    .parallax-image-wrap {
+      min-width: 80vw;
+    }
+    img {
+      min-height: 300px;
+    }
+  }
+
+  .btn-anim {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  .foot-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .btn-anim {
+      z-index: 9;
+    }
+  }
+
+  .anime {
+    position: absolute;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    z-index: 1;
+    span {
+      width: 8vw;
+      height: 8vw;
+      border-radius: 50%;
+      background-image: linear-gradient(
+        to right,
+        #ffffff50 50%,
+        transparent 50%
+      );
+      margin-left: -90px;
+      display: inline-block;
+      &:nth-of-type(1) {
+        margin-left: 20px;
+        background-image: linear-gradient(
+          to right,
+          #ffffff20 50%,
+          transparent 50%
+        );
+      }
+      &:nth-of-type(2) {
+        background-image: linear-gradient(
+          to right,
+          #ffffff30 50%,
+          transparent 50%
+        );
+      }
+      &:nth-of-type(3) {
+        background-image: linear-gradient(
+          to right,
+          #ffffff40 50%,
+          transparent 50%
+        );
+      }
+      &:nth-of-type(4) {
+        background-image: linear-gradient(
+          to right,
+          #ffffff50 50%,
+          transparent 50%
+        );
+      }
+      &:nth-of-type(6) {
+        background-image: linear-gradient(
+          to right,
+          #ffffff80 50%,
+          transparent 50%
+        );
+      }
+    }
+  }
+
+  ul {
+    li {
+      margin-bottom: 30px;
+      &:nth-last-of-type(1) {
+        margin-bottom: 0px;
+      }
+    }
+    a {
+      color: white;
+      font-weight: 600;
+      font-family: var(--mont);
+      &:hover {
+        color: var(--quaternary-color);
+      }
+    }
+  }
+
+  .footer__inner {
+    padding-bottom: 80px;
+  }
+
+  .footer__inner-single {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .thumb {
+      @include box(64px);
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.14);
+    }
+
+    a {
+      &:hover {
+        color: var(--quaternary-color);
+      }
+    }
+  }
+
+  .footer-copyright {
+    padding: 40px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+    a {
+      &:hover {
+        color: var(--quaternary-color);
+      }
+    }
+
+    .social {
+      a {
+        background-color: transparent;
+        width: auto;
+        min-width: auto;
+        height: auto;
+        color: white;
+        font-size: 24px;
+        &:hover {
+          color: var(--quaternary-color);
+        }
+      }
+    }
+  }
+
+  .arrow {
+    position: absolute;
+    top: 40px;
+    left: 45%;
+    transform: translateX(-45%);
+    z-index: -1;
+    max-width: 4vw;
+    min-width: 40px;
+  }
+}
+
+/* ==== 
+ --------- (4.03) footer styles end ---------
+ ==== */

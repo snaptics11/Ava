@@ -1,0 +1,85 @@
+/* ==== 
+ --------- (3.02) forms styles start ---------
+ ==== */
+
+// subscribe form
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 360px;
+  input {
+    flex-grow: 1;
+    padding: 22px 20px;
+    background-color: var(--quaternary-color);
+    border-radius: 40px;
+    color: var(--white);
+    width: calc(100% - 70px);
+  }
+
+  button {
+    @include box(70px);
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    font-size: 24px;
+  }
+}
+
+// blog search form
+.search-form {
+  width: 100%;
+  position: relative;
+
+  input {
+    width: 100%;
+    border-bottom: 1px solid #22222250;
+    padding: 16px 40px;
+    color: var(--secondary-color);
+    &::placeholder {
+      color: var(--tertiary-color);
+    }
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    color: var(--tertiary-color);
+  }
+}
+
+// contact form
+.input-single {
+  input,
+  textarea {
+    width: 100%;
+    padding: 0px 16px 16px 0px;
+    color: var(--secondary-color);
+    border-bottom: 1px solid #66666650;
+    &::placeholder {
+      color: var(--tertiary-color);
+    }
+    &:focus {
+      border-bottom: 1px solid var(--secondary-color);
+    }
+  }
+
+  textarea {
+    min-height: 120px;
+  }
+}
+
+.contact-form {
+  .input-single {
+    margin-bottom: 30px;
+    &:nth-last-of-type(1) {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+/* ==== 
+ --------- (3.02) forms styles end ---------
+ ==== */

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- required meta -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- #favicon -->
+      <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+      <!-- #title -->
+      <title>Itify | Software Development & It Solutions</title>
+      <!-- #keywords -->
+      <meta name="keywords" content="software, it, agency, html">
+      <!-- #description -->
+      <meta name="description" content="Software Development & It Solutions">
+      <!-- ==== css dependencies start ==== -->
+      <!-- bootstrap five css -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!-- font awesome six css -->
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <!-- material icons css -->
+      <link rel="stylesheet" href="assets/css/material-icons.css">
+      <!-- magnific popup css -->
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <!-- slick css -->
+      <link rel="stylesheet" href="assets/css/slick.css">
+      <!-- odometer css -->
+      <link rel="stylesheet" href="assets/css/odometer.css">
+      <!-- ==== / css dependencies end ==== -->
+      <!-- main css -->
+      <link rel="stylesheet" href="assets/css/main.css">
+   </head>
+   <body>
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+      <div class="tp-app">
+         <!-- ==== preloader start ==== -->
+         <div id="preloader">
+            <div id="ctn-preloader" class="ctn-preloader">
+               <div class="animation-preloader">
+                  <div class="spinner"></div>
+                  <div class="txt-loading">
+                     <span data-text-preloader="L" class="letters-loading">
+                     L
+                     </span>
+                     <span data-text-preloader="O" class="letters-loading">
+                     O
+                     </span>
+                     <span data-text-preloader="A" class="letters-loading">
+                     A
+                     </span>
+                     <span data-text-preloader="D" class="letters-loading">
+                     D
+                     </span>
+                     <span data-text-preloader="I" class="letters-loading">
+                     I
+                     </span>
+                     <span data-text-preloader="N" class="letters-loading">
+                     N
+                     </span>
+                     <span data-text-preloader="G" class="letters-loading">
+                     G
+                     </span>
+                  </div>
+               </div>
+               <div class="loader-section section-left"></div>
+               <div class="loader-section section-right"></div>
+            </div>
+         </div>
+         <!-- ==== / preloader end ==== -->
+         <!-- ==== header start ==== -->
+         <header class="tp-header tp-header--light">
+            <div class="primary-navbar">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12">
+                        <nav class="navbar p-0">
+                           <div class="navbar__logo">
+                              <a href="index.html" aria-label="go to home" class="logo-img">
+                              <img src="assets/images/logo.png" alt="Image">
+                              </a>
+                           </div>
+                           <div class="navbar__options">
+                              <a href="contact-us.html" class="d-none d-sm-flex">Let's Talk</a>
+                              <button class="open-offcanvas-nav" aria-label="toggle mobile menu" title="open offcanvas menu">
+                              <span class="icon-bar top-bar"></span>
+                              <span class="icon-bar middle-bar"></span>
+                              <span class="icon-bar bottom-bar"></span>
+                              </button>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <!-- ==== / header end ==== -->
+         <!-- ==== offcanvas nav start ==== -->
+         <div class="offcanvas-nav">
+            <div class="offcanvas-menu">
+               <nav class="offcanvas-menu__wrapper" data-lenis-prevent>
+                  <div class="offcanvas-menu__header nav-fade">
+                     <div class="logo">
+                        <a href="index.html" class="logo-img">
+                        <img src="assets/images/logo-light.png" alt="Image" title="Logo">
+                        </a>
+                     </div>
+                     <button aria-label="close offcanvas menu" class="close-offcanvas-menu">
+                     <i class="fa-solid fa-xmark"></i>
+                     </button>
+                  </div>
+                  <div class="offcanvas-menu__list">
+                     <div class="navbar__menu">
+                        <ul>
+                           <li class="navbar__item nav-fade">
+                              <a href="index.html">Home</a>
+                           </li>
+                           <li class="navbar__item nav-fade">
+                              <a href="about-us.html">About Us</a>
+                           </li>
+                           <li class="navbar__item navbar__item--has-children nav-fade">
+                              <button aria-label="dropdown menu" class="navbar__dropdown-label">Our Services</button>
+                              <ul class="navbar__sub-menu">
+                                 <li>
+                                    <a href="services.html">Our Services</a>
+                                 </li>
+                                 <li>
+                                    <a href="service-single.html">Service Details</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="navbar__item navbar__item--has-children nav-fade">
+                              <button aria-label="dropdown menu" class="navbar__dropdown-label">Case Studies</button>
+                              <ul class="navbar__sub-menu">
+                                 <li>
+                                    <a href="case-study.html">Case Study</a>
+                                 </li>
+                                 <li>
+                                    <a href="case-study-single.html">Case Study Details</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="navbar__item navbar__item--has-children nav-fade">
+                              <button aria-label="dropdown menu" class="navbar__dropdown-label">Career</button>
+                              <ul class="navbar__sub-menu">
+                                 <li>
+                                    <a href="career.html">Career</a>
+                                 </li>
+                                 <li>
+                                    <a href="job-single.html">Job Details</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="navbar__item navbar__item--has-children nav-fade">
+                              <button aria-label="dropdown menu" class="navbar__dropdown-label">Blog</button>
+                              <ul class="navbar__sub-menu">
+                                 <li>
+                                    <a href="blog.html">Blog</a>
+                                 </li>
+                                 <li>
+                                    <a href="blog-single.html">Blog Details</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li class="navbar__item nav-fade">
+                              <a href="contact-us.html">Contact Us</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+               <ul class=" social nav-fade">
+                  <li>
+                     <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook">
+                     <i class="fa-brands fa-facebook-f"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter">
+                     <i class="fa-brands fa-twitter"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.pinterest.com/" target="_blank" aria-label="share us on pinterest">
+                     <i class="fa-brands fa-linkedin-in"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/" target="_blank" aria-label="share us on instagram">
+                     <i class="fa-brands fa-instagram"></i>
+                     </a>
+                  </li>
+               </ul>
+               <div class="anime">
+                  <span class="nav-fade"></span>
+                  <span class="nav-fade"></span>
+                  <span class="nav-fade"></span>
+                  <span class="nav-fade"></span>
+                  <span class="nav-fade"></span>
+                  <span class="nav-fade"></span>
+               </div>
+            </div>
+         </div>
+         <!-- ==== / offcanvas nav end ==== -->
+         <!-- ==== main section start ==== -->
+         <main>
+            <!-- ==== job details section start ==== -->
+            <section class="job-single fix-top pb-120 sticky-wrapper">
+               <div class="container">
+                  <div class="row vertical-column-gap">
+                     <div class="col-12 col-lg-7">
+                        <div class="j-d-content sticky-item">
+                           <div class="intro">
+                              <h2 class="mt-8 text-secondary fw-7 title-anim mb-24">UI/UX Design</h2>
+                              <p>Position: <span class="position mb-12">(02)</span></p>
+                              <p>Location: <span class="location">(Remote)</span></p>
+                           </div>
+                           <div class="group pt-120">
+                              <h4 class="mt-8 text-secondary title-anim fw-6 mb-24">Who we are</h4>
+                              <p class="cur-lg">Lorem ipsum dolor sit amet consectetur. Augue morbi sapien malesuada augue massa vivamus pharetra. Pellentesque velit lectus dui convallis posuere viverra enim mauris. Pulvinar quam vitae ut viverra. Vitae quis cursus magna sit amet neque ultricies lectus massa. Sem mauris tincidunt risus enim adipiscing viverra. Interdum lectus interdum diam ultricies molestie. In et ullamcorper semper odio enim.</p>
+                           </div>
+                           <div class="group mt-60">
+                              <h4 class="mt-8 text-secondary title-anim fw-6 mb-24">What you want</h4>
+                              <ul>
+                                 <li>you have at least three years of commercial experience</li>
+                                 <li>you have a strong web/UI portfolio including published projects</li>
+                                 <li>fluent English in verbal and written communication</li>
+                                 <li>you are passionate about user interface and web design</li>
+                                 <li>issues are challenges not show-stoppers for you</li>
+                                 <li>you are a trend seeker</li>
+                                 <li>you bring a lot of attention to details</li>
+                                 <li>you plan upfront, think ahead, and are ready to be surprised</li>
+                                 <li>you think about the full picture</li>
+                                 <li>you are familiar with any UI design tool, i.e., Sketch, Figma or Adobe XD</li>
+                              </ul>
+                           </div>
+                           <div class="group mt-60">
+                              <h4 class="mt-8 text-secondary title-anim fw-6 mb-24">Who we are</h4>
+                              <p class="cur-lg">Lorem ipsum dolor sit amet consectetur. Augue morbi sapien malesuada augue massa vivamus pharetra. Pellentesque velit lectus dui convallis posuere viverra enim mauris. Pulvinar quam vitae ut viverra. Vitae quis cursus magna sit amet neque ultricies lectus massa. Sem mauris tincidunt risus enim adipiscing viverra. Interdum lectus interdum diam ultricies molestie. In et ullamcorper semper odio enim.</p>
+                           </div>
+                           <div class="group mt-60">
+                              <h4 class="mt-8 text-secondary title-anim fw-6 mb-24">Bonus points</h4>
+                              <ul>
+                                 <li>you have at least three years</li>
+                                 <li>you have a strong web/UI portfolio including</li>
+                                 <li>fluent English in verbal</li>
+                                 <li>you are passionate about user interface</li>
+                                 <li>issues are challenges</li>
+                                 <li>you are a seeker</li>
+                              </ul>
+                           </div>
+                           <div class="group mt-60">
+                              <h4 class="mt-8 text-secondary title-anim fw-6 mb-24">What you get is what you see</h4>
+                              <ul>
+                                 <li>you have at least three years</li>
+                                 <li>you have a strong web/UI portfolio including</li>
+                                 <li>fluent English in verbal</li>
+                                 <li>you are passionate about user interface</li>
+                                 <li>issues are challenges</li>
+                                 <li>you are a seeker</li>
+                                 <li>fluent English in verbal and written communication</li>
+                                 <li>you are passionate about user interface and web design</li>
+                                 <li>issues are challenges not show-stoppers for you</li>
+                                 <li>you are a trend seeker</li>
+                                 <li>you bring a lot of attention to details</li>
+                                 <li>you plan upfront, think ahead, and are ready to be surprised</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-lg-5 col-xxl-4 offset-xxl-1">
+                        <div class="j-d-sidebar sticky-item">
+                           <div class="intro">
+                              <span class="text-uppercase mt-8 text-tertiary mb-16">JOIN US</span>
+                              <h4 class="mt-8 fw-5 title-anim text-secondary mb-16">UI/UX Design</h4>
+                              <p>Full-time (40hr per week)</p>
+                           </div>
+                           <div class="content mt-40">
+                              <p class="mt-8 fw-5 text-xl text-secondary mb-16">Salary-</p>
+                              <p class="mt-8 fw-5 text-xl text-secondary mb-16">$1500-$2000 per month</p>
+                              <p class="mt-8 fw-4 text-tertiary mb-30">+ VAT (B2B) + bonuses</p>
+                              <p class="mt-8 fw-4 text-tertiary mb-16">Remote / Poznań
+                              </p>
+                              <p class="mt-8 fw-4 text-tertiary">Start: ASAP</p>
+                           </div>
+                           <div class="cta mt-60">
+                              <a href="index.html" class="btn">Apply Now</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- ==== / job details section end ==== -->
+         </main>
+         <!-- ==== / main section end ==== -->
+         <!-- ==== footer start ==== -->
+         <footer class="footer position-relative overflow-x-clip">
+            <div class="container">
+               <div class="row vertical-column-gap-lg">
+                  <div class="col-12 col-lg-6 col-xxl-5">
+                     <div class="pt-120">
+                        <span class="text-xl d-block mt-8 text-white text-capitalize fm fw-5 cur-lg">Let Our Cloud, Data, AI & IT Experts Solve the Problems and Tackle the Challenges That Keep You From Leading the Future</span>
+                        <div class="mt-60 foot-group">
+                           <div class="anime">
+                              <span class="foot-fade"></span>
+                              <span class="foot-fade"></span>
+                              <span class="foot-fade"></span>
+                              <span class="foot-fade"></span>
+                              <span class="foot-fade"></span>
+                              <span class="foot-fade"></span>
+                           </div>
+                           <a href="contact-us.html" class="btn-anim">
+                           Let's Talk
+                           <i class="fa-solid fa-arrow-trend-up"></i>
+                           <span></span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-lg-6 offset-xxl-1">
+                     <div class="footer__thumb">
+                        <img src="assets/images/footer/thumb.png" class="unset parallax-image" alt="Image">
+                     </div>
+                  </div>
+               </div>
+               <div class="row vertical-column-gap-lg pt-120">
+                  <div class="col-12 col-lg-6">
+                     <div>
+                        <h2 class="fm fw-7 text-white title-anim mt-8">We're Your Partner for Cloud, Data, and AI Innovation and Scalable Growth.
+                        </h2>
+                     </div>
+                  </div>
+                  <div class="col-12 col-lg-3 offset-lg-1">
+                     <ul class="mt-8">
+                        <li>
+                           <a href="about-us.html">About Us</a>
+                        </li>
+                        <li>
+                           <a href="services.html">It Service</a>
+                        </li>
+                        <li>
+                           <a href="career.html">Career</a>
+                        </li>
+                        <li>
+                           <a href="case-study.html">Case Studies</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-lg-2">
+                     <ul class="mt-8">
+                        <li>
+                           <a href="case-study.html">Resources</a>
+                        </li>
+                        <li>
+                           <a href="services.html">Our Services</a>
+                        </li>
+                        <li>
+                           <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                           <a href="contact-us.html">Contact Us</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer__inner pt-120">
+                        <div class="row vertical-column-gap-lg">
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="footer__inner-single">
+                                 <div class="thumb">
+                                    <img src="assets/images/footer/location.png" alt="Image">
+                                 </div>
+                                  <div class="content">
+                                    <h5 class="mt-8 fm fw-6 text-white mb-24">Location</h5>
+                                    <p class="text-quinary">
+                                       <a href="https://goo.gl/maps/16KHwiUcctAojuLj8" target="_blank">
+                                          AVA CLOUD TECH LLC <br>
+                                          5940 ADAIR LN <br>
+                                          MCKINNEY TX 75070-3591      
+                                          
+                                       </a>
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="footer__inner-single">
+                                 <div class="thumb">
+                                    <img src="assets/images/footer/phone.png" alt="Image">
+                                 </div>
+                                 <div class="content">
+                                    <h5 class="mt-8 fm fw-6 text-white mb-24">Phone</h5>
+                                    <p class="text-quinary mb-12">
+                                       <a href="tel:+15104029465">(USA) +1 510-402-9465</a>
+                                    </p>                                    
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-4">
+                              <div class="footer__inner-single">
+                                 <div class="thumb">
+                                    <img src="assets/images/footer/gmail.png" alt="Image">
+                                 </div>
+                                <div class="content">
+                                    <h5 class="mt-8 fm fw-6 text-white mb-24">Email</h5>
+                                    <p class="text-quinary mb-12 text-lowercase">
+                                       <a href="mailto:hr@avacloudtech.com">hr@avacloudtech.com</a>
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer-copyright">
+                        <div class="row align-items-center vertical-column-gap">
+                           <div class="col-12 col-lg-6">
+                              <div class="footer__copyright-text text-center text-lg-start">
+                                 <p class="text-quinary mt-8">
+                                    &copy;
+                                    <span id="copyrightYear"></span>
+                                    <a href="index.html" class="fw-6">Itify</a>
+                                    . All rights reserved
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="col-12 col-lg-6">
+                              <div class="social justify-content-center justify-content-lg-end">
+                                 <a href="https://www.twitter.com/" target="_blank">
+                                 <i class="fa-brands fa-twitter"></i>
+                                 </a>
+                                 <a href="https://www.instagram.com/" target="_blank">
+                                 <i class="fa-brands fa-instagram"></i>
+                                 </a>
+                                 <a href="https://www.facebook.com/" target="_blank">
+                                 <i class="fa-brands fa-facebook-messenger"></i>
+                                 </a>
+                                 <a href="https://www.youtube.com/" target="_blank">
+                                 <i class="fa-brands fa-youtube"></i>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <img src="assets/images/footer/arrow.png" alt="Image" class="arrow">
+         </footer>
+         <!-- ==== / footer end ==== -->
+         <!-- ==== mouse cursor drag start ==== -->
+         <div class="mouseCursor cursor-outer"></div>
+         <div class="mouseCursor cursor-inner">
+            <span>Drag</span>
+         </div>
+         <!-- ==== / mouse cursor drag end ==== -->
+         <!-- ==== scroll to top start ==== -->
+         <button class="progress-wrap" aria-label="scroll indicator" title="go to top">
+            <span></span>
+            <svg
+               class="progress-circle svg-content"
+               width="100%"
+               height="100%"
+               viewBox="-1 -1 102 102"
+               >
+               <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+            </svg>
+         </button>
+         <!-- ==== / scroll to top end ==== -->
+      </div>
+      <!-- ==== js dependencies start ==== -->
+      <!-- jquery -->
+      <script src="assets/js/jquery-3.7.1.min.js"></script>
+      <!-- bootstrap five js -->
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <!-- magnific popup js -->
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <!-- slick js -->
+      <script src="assets/js/slick.min.js"></script>
+      <!-- appear js -->
+      <script src="assets/js/jquery.appear.js"></script>
+      <!-- odometer js -->
+      <script src="assets/js/jquery.odometer.min.js"></script>
+      <!-- image loaded js -->
+      <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+      <!-- isotope js -->
+      <script src="assets/js/isotope.pkgd.min.js"></script>
+      <!-- splittext js -->
+      <script src="assets/js/SplitText.min.js"></script>
+      <!-- lenis smooth scroll -->
+      <script src="assets/js/lenis.min.js"></script>
+      <!-- scrollto js -->
+      <script src="assets/js/ScrollToPlugin.min.js"></script>
+      <!-- scrolltrigger js -->
+      <script src="assets/js/ScrollTrigger.min.js"></script>
+      <!-- gsap js -->
+      <script src="assets/js/gsap.min.js"></script>
+      <!-- vanilla tilt js -->
+      <script src="assets/js/tilt.jquery.js"></script>
+      <!-- ==== / js dependencies end ==== -->
+      <!-- main js -->
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>

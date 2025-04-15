@@ -1,0 +1,479 @@
+/* ==== 
+ --------- (4.02) banner styles start ---------
+ ==== */
+
+// 4.02.01  home banner styles start
+.tp-banner {
+  background-color: var(--black);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+  .tp-banner__users {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .tp-banner__avatar {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-left: -8px;
+      &:nth-of-type(1) {
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .tp-banner__thumb {
+    position: relative;
+    .video-frame {
+      position: absolute;
+      top: 50px;
+      right: calc(100% - 50px);
+    }
+  }
+
+  .social {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    a {
+      background-color: transparent;
+      color: white;
+      width: auto;
+      min-width: auto;
+      height: auto;
+      &:hover {
+        color: var(--quaternary-color);
+      }
+    }
+  }
+
+  .scroll-to {
+    position: absolute;
+    top: 40%;
+    right: 100px;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    line-height: 0px;
+    flex-direction: row-reverse;
+    color: white;
+    transform: rotate(-180deg);
+    letter-spacing: 8px;
+    font-weight: 400;
+    gap: 30px;
+    animation: moveUpDown 2.4s infinite;
+    z-index: -1;
+    .arrow {
+      position: relative;
+      display: block;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 46px;
+        background-color: var(--white);
+        transition: var(--transition);
+      }
+      &::after {
+        content: "\f106";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        color: white;
+        left: 1px;
+        bottom: calc(100% - 22px);
+        font-size: 24px;
+        transition: var(--transition);
+      }
+    }
+    &:hover {
+      color: var(--quaternary-color);
+      animation-play-state: paused;
+      .arrow {
+        &::before {
+          background-color: var(--quaternary-color);
+        }
+        &::after {
+          color: var(--quaternary-color);
+        }
+      }
+    }
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      top: 40%;
+    }
+    50% {
+      top: calc(40% + 40px);
+    }
+    100% {
+      top: 40%;
+    }
+  }
+}
+
+// 4.02.02 about banner styles start
+.about-banner {
+  z-index: 1;
+  .parallax-image-wrap {
+    min-width: 80vw;
+  }
+
+  .foot-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .btn-anim {
+      z-index: 9;
+      margin-left: auto;
+      margin-right: 60px;
+    }
+  }
+
+  .anime {
+    position: absolute;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    z-index: 1;
+    span {
+      width: 8vw;
+      height: 8vw;
+      border-radius: 50%;
+      background-image: linear-gradient(
+        to right,
+        #ffe60050 50%,
+        transparent 50%
+      );
+      margin-left: -90px;
+      display: inline-block;
+      &:nth-of-type(1) {
+        margin-left: 20px;
+        background-image: linear-gradient(
+          to right,
+          #ffe60020 50%,
+          transparent 50%
+        );
+      }
+      &:nth-of-type(2) {
+        background-image: linear-gradient(
+          to right,
+          #ffe60030 50%,
+          transparent 50%
+        );
+      }
+      &:nth-of-type(3) {
+        background-image: linear-gradient(
+          to right,
+          #ffe60040 50%,
+          transparent 50%
+        );
+      }
+      &:nth-of-type(4) {
+        background-image: linear-gradient(
+          to right,
+          #ffe60050 50%,
+          transparent 50%
+        );
+      }
+      &:nth-of-type(6) {
+        background-image: linear-gradient(
+          to right,
+          #ffe60080 50%,
+          transparent 50%
+        );
+      }
+    }
+  }
+
+  .social {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    a {
+      background-color: transparent;
+      color: #444444;
+      width: auto;
+      min-width: auto;
+      height: auto;
+      &:hover {
+        color: var(--primary-color);
+      }
+    }
+  }
+}
+
+// 4.02.03 service banner styles start
+.service-banner {
+  z-index: 1;
+  p {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .social {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    a {
+      background-color: transparent;
+      color: white;
+      width: auto;
+      min-width: auto;
+      height: auto;
+      &:hover {
+        color: var(--quaternary-color);
+      }
+    }
+  }
+
+  .scroll-to {
+    position: absolute;
+    top: 40%;
+    right: 100px;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    line-height: 0px;
+    flex-direction: row-reverse;
+    color: white;
+    transform: rotate(-180deg);
+    letter-spacing: 8px;
+    font-weight: 400;
+    gap: 30px;
+    animation: moveUpDown 2.4s infinite;
+    z-index: -1;
+    .arrow {
+      position: relative;
+      display: block;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 46px;
+        background-color: var(--white);
+        transition: var(--transition);
+      }
+      &::after {
+        content: "\f106";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        color: white;
+        left: 1px;
+        bottom: calc(100% - 22px);
+        font-size: 24px;
+        transition: var(--transition);
+      }
+    }
+    &:hover {
+      color: var(--quaternary-color);
+      animation-play-state: paused;
+      .arrow {
+        &::before {
+          background-color: var(--quaternary-color);
+        }
+        &::after {
+          color: var(--quaternary-color);
+        }
+      }
+    }
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      top: 40%;
+    }
+    50% {
+      top: calc(40% + 40px);
+    }
+    100% {
+      top: 40%;
+    }
+  }
+
+  .thumb-one,
+  .thumb-two {
+    position: absolute;
+    z-index: -1;
+    img {
+      max-width: 16vw;
+      min-width: 80px;
+    }
+  }
+
+  .thumb-one {
+    bottom: 120px;
+    left: 10%;
+  }
+
+  .thumb-two {
+    top: 140px;
+    right: 13%;
+  }
+}
+
+// 4.02.04 career banner styles start
+.career-banner {
+  z-index: 1;
+  padding-bottom: 200px;
+  --scale: 1;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+    width: 10vw;
+    height: 10vw;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #ffe600 50%, #ffe600 50%);
+    z-index: -1;
+    transform: translateY(50%) scale(var(--scale));
+  }
+  .cp-banner-thumb {
+    position: relative;
+    z-index: -2;
+    img {
+      max-width: 30vw;
+      min-width: 240px;
+    }
+  }
+
+  .social {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    a {
+      background-color: transparent;
+      color: white;
+      width: auto;
+      min-width: auto;
+      height: auto;
+      &:hover {
+        color: var(--quaternary-color);
+      }
+    }
+  }
+
+  .scroll-to {
+    position: absolute;
+    top: 40%;
+    right: 100px;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    line-height: 0px;
+    flex-direction: row-reverse;
+    color: white;
+    transform: rotate(-180deg);
+    letter-spacing: 8px;
+    font-weight: 400;
+    gap: 30px;
+    animation: moveUpDown 2.4s infinite;
+    z-index: -1;
+    .arrow {
+      position: relative;
+      display: block;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 46px;
+        background-color: var(--white);
+        transition: var(--transition);
+      }
+      &::after {
+        content: "\f106";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        color: white;
+        left: 1px;
+        bottom: calc(100% - 22px);
+        font-size: 24px;
+        transition: var(--transition);
+      }
+    }
+    &:hover {
+      color: var(--quaternary-color);
+      animation-play-state: paused;
+      .arrow {
+        &::before {
+          background-color: var(--quaternary-color);
+        }
+        &::after {
+          color: var(--quaternary-color);
+        }
+      }
+    }
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      top: 40%;
+    }
+    50% {
+      top: calc(40% + 40px);
+    }
+    100% {
+      top: 40%;
+    }
+  }
+
+  .sm-c {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-image: linear-gradient(
+      to bottom,
+      #ffe60060 50%,
+      transparent 50%
+    );
+    z-index: -1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .sm-cl {
+    top: unset;
+    bottom: 20%;
+    right: 80%;
+    background-image: linear-gradient(to right, #ffe60060 50%, transparent 50%);
+  }
+}
+
+/* ==== 
+ --------- (4.02) banner styles end ---------
+ ==== */

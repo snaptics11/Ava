@@ -1,0 +1,37 @@
+/* ==== 
+ --------- (1.02) variables start ---------
+ ==== */
+
+// montserrat and inter google fonts source
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  // font family
+  --mont: "Montserrat", sans-serif;
+  --inter: "Inter", sans-serif;
+
+  // theme default
+  --theme-font: var(--inter);
+  --theme-bg: #ffffff;
+  --theme-color: #444444;
+
+  // colors
+  --white: #ffffff;
+  --black: #000000;
+  --primary-color: #0038ff;
+  --secondary-color: #222222;
+  --tertiary-color: #666666;
+  --quaternary-color: #ffe600;
+  --quinary-color: #f5f5f5;
+
+  // transitions
+  --transition: all 0.3s ease-in-out;
+
+  // box shadow
+  --shadow: 0px 4px 28px 0px rgba(163, 163, 163, 0.25);
+  --shadow-secondary: 0 0 31px rgba(0, 0, 0, 0.1);
+}
+
+/* ==== 
+ --------- (1.02) variables end ---------
+ ==== */

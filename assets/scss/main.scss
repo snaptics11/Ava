@@ -1,0 +1,85 @@
+/* ==============
+ ========= css table of contents =========
+
+ * theme name: Itify
+ * version: 1.0
+ * description: Software Development & It Solutions
+ * author: Pixelaxis
+ * author-url: https://themeforest.net/user/pixelaxis
+
+ 01. abstracts
+     1.01 --> mixins
+     1.02 --> variables
+    
+ 02. base
+     2.01 --> reset
+     2.02 --> typography
+     2.03 --> global
+
+ 03. components
+     3.01 --> buttons
+     3.02 --> forms
+     3.03 --> preloader
+
+ 04. layout
+     4.01 --> header
+              4.01.01 --> header common
+              4.01.02 --> offcanvas nav
+              4.01.03 --> light header
+
+     4.02 --> banner
+              4.02.01 --> home banner styles start
+              4.02.02 --> about banner styles start
+              4.02.03 --> service banner styles start
+              4.02.04 --> career banner styles start
+
+     4.03 --> footer
+
+ 05. sections
+     5.01 --> overview section styles start
+     5.02 --> story section styles start
+     5.03 --> testimonial section styles start
+     5.04 --> latest post section styles start
+     5.05 --> sponsor section styles start
+     5.06 --> case study section styles start
+     5.07 --> gallery section styles start
+     5.08 --> service section styles start
+     5.09 --> transform section styles start
+     5.10 --> process section styles start
+     5.11 --> case study main section styles start
+     5.12 --> open position section styles start
+     5.13 --> thrive section styles start
+     5.14 --> masonry gallery styles start
+     5.15 --> job details styles start
+     5.16 --> blog main styles start
+     5.17 --> blog details styles start
+
+ 06. responsive
+
+    ==================================
+============== */
+
+// abstract styles
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+// base styles
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/global";
+
+// component styles
+@import "./components/buttons";
+@import "./components/forms";
+@import "./components/preloader";
+
+// layout styles
+@import "./layout/header";
+@import "./layout/banner";
+@import "./layout/footer";
+
+// section styles
+@import "./sections/all-sections";
+
+// responsive styles
+@import "./responsive";
