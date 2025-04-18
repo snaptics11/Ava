@@ -1,490 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- required meta -->
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- #favicon -->
-      <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-      <!-- #title -->
-      <title>Itify | Software Development & It Solutions</title>
-      <!-- #keywords -->
-      <meta name="keywords" content="software, it, agency, html">
-      <!-- #description -->
-      <meta name="description" content="Software Development & It Solutions">
-      <!-- ==== css dependencies start ==== -->
-      <!-- bootstrap five css -->
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <!-- font awesome six css -->
-      <link rel="stylesheet" href="assets/css/all.min.css">
-      <!-- material icons css -->
-      <link rel="stylesheet" href="assets/css/material-icons.css">
-      <!-- magnific popup css -->
-      <link rel="stylesheet" href="assets/css/magnific-popup.css">
-      <!-- slick css -->
-      <link rel="stylesheet" href="assets/css/slick.css">
-      <!-- odometer css -->
-      <link rel="stylesheet" href="assets/css/odometer.css">
-      <!-- ==== / css dependencies end ==== -->
-      <!-- main css -->
-      <link rel="stylesheet" href="assets/css/main.css">
-   </head>
-   <body>
-      <!--[if lte IE 9]>
+
+<head>
+   <!-- required meta -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- #favicon -->
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   <!-- #title -->
+   <title>Itify | Software Development & It Solutions</title>
+   <!-- #keywords -->
+   <meta name="keywords" content="software, it, agency, html">
+   <!-- #description -->
+   <meta name="description" content="Software Development & It Solutions">
+   <!-- ==== css dependencies start ==== -->
+   <!-- bootstrap five css -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- font awesome six css -->
+   <link rel="stylesheet" href="assets/css/all.min.css">
+   <!-- material icons css -->
+   <link rel="stylesheet" href="assets/css/material-icons.css">
+   <!-- magnific popup css -->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <!-- slick css -->
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <!-- odometer css -->
+   <link rel="stylesheet" href="assets/css/odometer.css">
+   <!-- ==== / css dependencies end ==== -->
+   <!-- main css -->
+   <link rel="stylesheet" href="assets/css/main.css">
+
+   <style>
+      .tp-banner .tp-banner__content h1 {
+         font-size: 70px !important;
+         line-height: 100px !important;
+      }
+@media screen and (max-width:1199px){
+   .tp-banner .tp-banner__content h1 {
+    font-size: 30px !important;
+    line-height: 50px !important;
+}
+}
+      @media only screen and (min-width: 1200px) {
+         .tp-banner .tp-banner__content h1 img {
+            margin-top: -20px;
+            display: inline-block;
+            height: 80px;
+         }
+      }
+   </style>
+</head>
+
+<body>
+   <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       <![endif]-->
-      <div class="tp-app">
-         <!-- ==== preloader start ==== -->
-         <div id="preloader">
-            <div id="ctn-preloader" class="ctn-preloader">
-               <div class="animation-preloader">
-                  <div class="spinner"></div>
-                  <div class="txt-loading">
-                     <span data-text-preloader="L" class="letters-loading">
+   <div class="tp-app">
+      <!-- ==== preloader start ==== -->
+      <div id="preloader">
+         <div id="ctn-preloader" class="ctn-preloader">
+            <div class="animation-preloader">
+               <div class="spinner"></div>
+               <div class="txt-loading">
+                  <span data-text-preloader="L" class="letters-loading">
                      L
-                     </span>
-                     <span data-text-preloader="O" class="letters-loading">
+                  </span>
+                  <span data-text-preloader="O" class="letters-loading">
                      O
-                     </span>
-                     <span data-text-preloader="A" class="letters-loading">
+                  </span>
+                  <span data-text-preloader="A" class="letters-loading">
                      A
-                     </span>
-                     <span data-text-preloader="D" class="letters-loading">
+                  </span>
+                  <span data-text-preloader="D" class="letters-loading">
                      D
-                     </span>
-                     <span data-text-preloader="I" class="letters-loading">
+                  </span>
+                  <span data-text-preloader="I" class="letters-loading">
                      I
-                     </span>
-                     <span data-text-preloader="N" class="letters-loading">
+                  </span>
+                  <span data-text-preloader="N" class="letters-loading">
                      N
-                     </span>
-                     <span data-text-preloader="G" class="letters-loading">
+                  </span>
+                  <span data-text-preloader="G" class="letters-loading">
                      G
-                     </span>
-                  </div>
+                  </span>
                </div>
-               <div class="loader-section section-left"></div>
-               <div class="loader-section section-right"></div>
             </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
          </div>
-         <!-- ==== / preloader end ==== -->
-         <!-- ==== header start ==== -->
-         <header class="tp-header">
-            <div class="primary-navbar">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-12">
-                        <nav class="navbar p-0">
-                           <div class="navbar__logo">
-                              <a href="index.html" aria-label="go to home" class="logo-img">
+      </div>
+      <!-- ==== / preloader end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="tp-header">
+         <div class="primary-navbar">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <nav class="navbar p-0">
+                        <div class="navbar__logo">
+                           <a href="index.html" aria-label="go to home" class="logo-img">
                               <img src="assets/images/logo-light.png" alt="Image">
-                              </a>
-                           </div>
-                           <div class="navbar__options">
-                              <a href="contact-us.html" class="d-none d-sm-flex">Let's Talk</a>
-                              <button class="open-offcanvas-nav" aria-label="toggle mobile menu" title="open offcanvas menu">
+                           </a>
+                        </div>
+                        <div class="navbar__options">
+                           <a href="contact-us.html" class="d-none d-sm-flex">Let's Talk</a>
+                           <button class="open-offcanvas-nav" aria-label="toggle mobile menu"
+                              title="open offcanvas menu">
                               <span class="icon-bar top-bar"></span>
                               <span class="icon-bar middle-bar"></span>
                               <span class="icon-bar bottom-bar"></span>
-                              </button>
-                           </div>
-                        </nav>
-                     </div>
+                           </button>
+                        </div>
+                     </nav>
                   </div>
-               </div>
-            </div>
-         </header>
-         <!-- ==== / header end ==== -->
-         <!-- ==== offcanvas nav start ==== -->
-         <div class="offcanvas-nav">
-            <div class="offcanvas-menu">
-               <nav class="offcanvas-menu__wrapper" data-lenis-prevent>
-                  <div class="offcanvas-menu__header nav-fade">
-                     <div class="logo">
-                        <a href="index.html" class="logo-img">
-                        <img src="assets/images/logo-light.png" alt="Image" title="Logo">
-                        </a>
-                     </div>
-                     <button aria-label="close offcanvas menu" class="close-offcanvas-menu">
-                     <i class="fa-solid fa-xmark"></i>
-                     </button>
-                  </div>
-                  <div class="offcanvas-menu__list">
-                     <div class="navbar__menu">
-                        <ul>
-                           <li class="navbar__item nav-fade">
-                              <a href="index.html">Home</a>
-                           </li>
-                           <li class="navbar__item nav-fade">
-                              <a href="about-us.html">About Us</a>
-                           </li>
-                           <li class="navbar__item navbar__item--has-children nav-fade">
-                              <button aria-label="dropdown menu" class="navbar__dropdown-label">Our Services</button>
-                              <ul class="navbar__sub-menu">
-                                 <li>
-                                    <a href="services.html">Our Services</a>
-                                 </li>
-                                 <li>
-                                    <a href="service-single.html">Service Details</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="navbar__item navbar__item--has-children nav-fade">
-                              <button aria-label="dropdown menu" class="navbar__dropdown-label">Case Studies</button>
-                              <ul class="navbar__sub-menu">
-                                 <li>
-                                    <a href="case-study.html">Case Study</a>
-                                 </li>
-                                 <li>
-                                    <a href="case-study-single.html">Case Study Details</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="navbar__item navbar__item--has-children nav-fade">
-                              <button aria-label="dropdown menu" class="navbar__dropdown-label">Career</button>
-                              <ul class="navbar__sub-menu">
-                                 <li>
-                                    <a href="career.html">Career</a>
-                                 </li>
-                                 <li>
-                                    <a href="job-single.html">Job Details</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="navbar__item navbar__item--has-children nav-fade">
-                              <button aria-label="dropdown menu" class="navbar__dropdown-label">Blog</button>
-                              <ul class="navbar__sub-menu">
-                                 <li>
-                                    <a href="blog.html">Blog</a>
-                                 </li>
-                                 <li>
-                                    <a href="blog-single.html">Blog Details</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li class="navbar__item nav-fade">
-                              <a href="contact-us.html">Contact Us</a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </nav>
-               <ul class=" social nav-fade">
-                  <li>
-                     <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook">
-                     <i class="fa-brands fa-facebook-f"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter">
-                     <i class="fa-brands fa-twitter"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.pinterest.com/" target="_blank" aria-label="share us on pinterest">
-                     <i class="fa-brands fa-linkedin-in"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.instagram.com/" target="_blank" aria-label="share us on instagram">
-                     <i class="fa-brands fa-instagram"></i>
-                     </a>
-                  </li>
-               </ul>
-               <div class="anime">
-                  <span class="nav-fade"></span>
-                  <span class="nav-fade"></span>
-                  <span class="nav-fade"></span>
-                  <span class="nav-fade"></span>
-                  <span class="nav-fade"></span>
-                  <span class="nav-fade"></span>
                </div>
             </div>
          </div>
-         <!-- ==== / offcanvas nav end ==== -->
-         <!-- ==== main section start ==== -->
-         <main>
-            <!-- ==== banner section start ==== -->
-            <section class="tp-banner fix-top pb-120" data-background="assets/images/banner/banner-bg.png">
-               <div class="container">
-                  <div class="row vertical-column-gap align-items-center">
-                     <div class="col-12 col-md-9 col-lg-9">
-                        <div class="tp-banner__content">
-                           <h1 class="mt-8 text-white fw-7 title-anim">
-                              Empower Your Business with Smart 
-                              <img src="assets/images/banner/hand.png" alt="Image">
-                              Cloud Solutions & Top 
-                              <span class="text-quaternary"><span style="text-transform: uppercase;">IT</span> Talent</span>
-                           </h1>
-                           <h6 class="text-white">Transforming Businesses with Cloud Solutions, Data-Driven Insights, Robust Data Engineering, and Intelligent AI Applications.</h6>
-                           <p class="text-white mt-2">We deliver innovative cloud solutions and connect you with experienced IT professionals to drive your projects forward. </p>
-                        </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <!-- ==== offcanvas nav start ==== -->
+      <div class="offcanvas-nav">
+         <div class="offcanvas-menu">
+            <nav class="offcanvas-menu__wrapper" data-lenis-prevent>
+               <div class="offcanvas-menu__header nav-fade">
+                  <div class="logo">
+                     <a href="index.html" class="logo-img">
+                        <img src="assets/images/logo-light.png" alt="Image" title="Logo">
+                     </a>
+                  </div>
+                  <button aria-label="close offcanvas menu" class="close-offcanvas-menu">
+                     <i class="fa-solid fa-xmark"></i>
+                  </button>
+               </div>
+               <div class="offcanvas-menu__list">
+                  <div class="navbar__menu">
+                     <ul>
+                        <li class="navbar__item nav-fade">
+                           <a href="index.html">Home</a>
+                        </li>
+                        <li class="navbar__item nav-fade">
+                           <a href="about-us.html">About Us</a>
+                        </li>
+                        <li class="navbar__item navbar__item--has-children nav-fade">
+                           <button aria-label="dropdown menu" class="navbar__dropdown-label">Our Services</button>
+                           <ul class="navbar__sub-menu">
+                              <li>
+                                 <a href="services.html">Our Services</a>
+                              </li>
+                              <li>
+                                 <a href="service-single.html">Service Details</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="navbar__item navbar__item--has-children nav-fade">
+                           <button aria-label="dropdown menu" class="navbar__dropdown-label">Case Studies</button>
+                           <ul class="navbar__sub-menu">
+                              <li>
+                                 <a href="case-study.html">Case Study</a>
+                              </li>
+                              <li>
+                                 <a href="case-study-single.html">Case Study Details</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="navbar__item navbar__item--has-children nav-fade">
+                           <button aria-label="dropdown menu" class="navbar__dropdown-label">Career</button>
+                           <ul class="navbar__sub-menu">
+                              <li>
+                                 <a href="career.html">Career</a>
+                              </li>
+                              <li>
+                                 <a href="job-single.html">Job Details</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="navbar__item navbar__item--has-children nav-fade">
+                           <button aria-label="dropdown menu" class="navbar__dropdown-label">Blog</button>
+                           <ul class="navbar__sub-menu">
+                              <li>
+                                 <a href="blog.html">Blog</a>
+                              </li>
+                              <li>
+                                 <a href="blog-single.html">Blog Details</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="navbar__item nav-fade">
+                           <a href="contact-us.html">Contact Us</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+            <ul class=" social nav-fade">
+               <li>
+                  <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook">
+                     <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter">
+                     <i class="fa-brands fa-twitter"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.pinterest.com/" target="_blank" aria-label="share us on pinterest">
+                     <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/" target="_blank" aria-label="share us on instagram">
+                     <i class="fa-brands fa-instagram"></i>
+                  </a>
+               </li>
+            </ul>
+            <div class="anime">
+               <span class="nav-fade"></span>
+               <span class="nav-fade"></span>
+               <span class="nav-fade"></span>
+               <span class="nav-fade"></span>
+               <span class="nav-fade"></span>
+               <span class="nav-fade"></span>
+            </div>
+         </div>
+      </div>
+      <!-- ==== / offcanvas nav end ==== -->
+      <!-- ==== main section start ==== -->
+      <main>
+         <!-- ==== banner section start ==== -->
+         <section class="tp-banner fix-top pb-120" data-background="assets/images/banner/banner-bg.png">
+            <div class="container">
+               <div class="row vertical-column-gap align-items-center">
+                  <div class="col-12 col-md-9 col-lg-9">
+                     <div class="tp-banner__content">
+                        <h1 class="mt-8 text-white fw-7 title-anim">
+                           Transforming Businesses with Cloud Solutions, Data-Driven Insights, Robust Data Engineering,
+                           <img src="assets/images/banner/hand.png" alt="Image">
+                           and
+                           <span class="text-quaternary"><span style="text-transform: uppercase;">Intelligent AI
+                                 Applications.</span> </span>
+                        </h1>
+                        <h6 class="text-white">Empowering Your Organization with the Latest Cloud, Data, and AI Technologies.</h6>
+                
                      </div>
-                     <div class="col-12 col-lg-3">
-                        <div class="text-start text-lg-end">
-                           <a href="services.html" class="alter-btn btn-anim">
-                              Find Your 
+                  </div>
+                  <div class="col-12 col-lg-3">
+                     <div class="text-start text-lg-end">
+                        <a href="services.html" class="alter-btn btn-anim">
+                           Find Your
                            <i class="fa-solid fa-arrow-trend-up"></i>
                            IT Talent
                            <span></span>
-                           </a>
-                        </div>
+                        </a>
                      </div>
                   </div>
-                  <div class="row vertical-column-gap mt-60">
-                     <div class="col-12 col-lg-4 col-xxl-3 order-last order-lg-first">
-                        <div class="tp-banner__users h-100">
-                           <div class="tp-banner__avatar mb-24">
-                              <img src="assets/images/banner/avatar-one.png" alt="Image">
-                              <img src="assets/images/banner/avatar-two.png" alt="Image">
-                              <img src="assets/images/banner/avatar-three.png" alt="Image">
-                           </div>
-                           <h5 class="fw-5 text-white mt-8 mb-8">240 Business Peoples</h5>
-                           <p class="text-white">Already registered</p>
+               </div>
+               <!-- <div class="row vertical-column-gap mt-60">
+                  <div class="col-12 col-lg-4 col-xxl-3 order-last order-lg-first">
+                     <div class="tp-banner__users h-100">
+                        <div class="tp-banner__avatar mb-24">
+                           <img src="assets/images/banner/avatar-one.png" alt="Image">
+                           <img src="assets/images/banner/avatar-two.png" alt="Image">
+                           <img src="assets/images/banner/avatar-three.png" alt="Image">
                         </div>
+                        <h5 class="fw-5 text-white mt-8 mb-8">240 Business Peoples</h5>
+                        <p class="text-white">Already registered</p>
                      </div>
-                     <div class="col-12 col-lg-8 col-xxl-9">
-                        <div class="tp-banner__thumb">
-                           <img src="assets/images/banner/thumb.png" class="w-100 mh-400 parallax-image" alt="Image">
-                           <a class="video-frame video-btn" href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank">
+                  </div>
+                  <div class="col-12 col-lg-8 col-xxl-9">
+                     <div class="tp-banner__thumb">
+                        <img src="assets/images/banner/thumb.png" class="w-100 mh-400 parallax-image" alt="Image">
+                        <a class="video-frame video-btn" href="https://www.youtube.com/watch?v=RvreULjnzFo"
+                           target="_blank">
                            <img src="assets/images/video-frame.png" alt="Image">
                            <i class="fa-solid fa-play"></i>
-                           </a>
-                        </div>
+                        </a>
                      </div>
                   </div>
-               </div>
-               <ul class="social">
-                  <li>
-                     <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook">
+               </div> -->
+            </div>
+            <ul class="social">
+               <li>
+                  <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook">
                      <i class="fa-brands fa-facebook-f"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter">
                      <i class="fa-brands fa-twitter"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.pinterest.com/" target="_blank" aria-label="share us on pinterest">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.pinterest.com/" target="_blank" aria-label="share us on pinterest">
                      <i class="fa-brands fa-linkedin-in"></i>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.instagram.com/" target="_blank" aria-label="share us on instagram">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/" target="_blank" aria-label="share us on instagram">
                      <i class="fa-brands fa-instagram"></i>
-                     </a>
-                  </li>
-               </ul>
-               <a href="#scroll-to" class="scroll-to">
+                  </a>
+               </li>
+            </ul>
+            <a href="#scroll-to" class="scroll-to">
                Scroll
                <span class="arrow"></span>
-               </a>
-            </section>
-            <!-- ==== / banner section end ==== -->
-            <!-- ==== overview section start ==== -->
-            <section class="tp-overview pt-120 pb-120 sticky-wrapper" id="scroll-to">
-               <div class="container">
-                  <div class="row vertical-column-gap-lg">
-                     <div class="col-12 col-lg-5">
-                        <div class="tp-overview__content sticky-item">
-                           <h2 class="fw-7 text-secondary title-anim mb-30 mt-8">How Can We Help You?</h2>
-                           <p class="mt-8 cur-lg">Our cloud experts, data scientists, and IT staffing professionals work hand-in-hand to design, build, and optimize solutions that align with your business goals. From seamless cloud integration and AI-powered automation to finding the right tech talent, we help you scale smarter, reach more customers, and drive lasting growth.</p>
-                           <div class="mt-40">
-                              <a href="services.html" class="btn-line text-uppercase">SEE WHAT WE DO</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-12 col-lg-7 col-xxl-6 offset-xxl-1">
-                        <div class="tp-overview__items sticky-item">
-                           <div class="tp-overview-single appear-down">
-                              <div class="thumb">
-                                 <img src="assets/images/overview/one.png" alt="Image">
-                              </div>
-                              <div class="wrapper">
-                                 <div class="content">
-                                    <h4 class="mt-8 mb-12 fw-6 text-secondary">
-                                       <a href="service-single.html">Artificial Intelligence</a>
-                                    </h4>
-                                    <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                                 <div class="cta">
-                                    <a href="service-single.html">
-                                    <span class="material-symbols-outlined">
-                                    call_made
-                                    </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tp-overview-single appear-down">
-                              <div class="thumb">
-                                 <img src="assets/images/overview/two.png" alt="Image">
-                              </div>
-                              <div class="wrapper">
-                                 <div class="content">
-                                    <h4 class="mt-8 mb-12 fw-6 text-secondary">
-                                       <a href="service-single.html">Product Design</a>
-                                    </h4>
-                                    <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                                 <div class="cta">
-                                    <a href="service-single.html">
-                                    <span class="material-symbols-outlined">
-                                    call_made
-                                    </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tp-overview-single appear-down">
-                              <div class="thumb">
-                                 <img src="assets/images/overview/three.png" alt="Image">
-                              </div>
-                              <div class="wrapper">
-                                 <div class="content">
-                                    <h4 class="mt-8 mb-12 fw-6 text-secondary">
-                                       <a href="service-single.html">
-                                       Mobile Application 
-                                       Development
-                                       </a>
-                                    </h4>
-                                    <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                                 <div class="cta">
-                                    <a href="service-single.html">
-                                    <span class="material-symbols-outlined">
-                                    call_made
-                                    </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tp-overview-single appear-down">
-                              <div class="thumb">
-                                 <img src="assets/images/overview/four.png" alt="Image">
-                              </div>
-                              <div class="wrapper">
-                                 <div class="content">
-                                    <h4 class="mt-8 mb-12 fw-6 text-secondary">
-                                       <a href="service-single.html">Web Application Development</a>
-                                    </h4>
-                                    <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                                 <div class="cta">
-                                    <a href="service-single.html">
-                                    <span class="material-symbols-outlined">
-                                    call_made
-                                    </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tp-overview-single appear-down">
-                              <div class="thumb">
-                                 <img src="assets/images/overview/five.png" alt="Image">
-                              </div>
-                              <div class="wrapper">
-                                 <div class="content">
-                                    <h4 class="mt-8 mb-12 fw-6 text-secondary">
-                                       <a href="service-single.html">Idea Evaluation</a>
-                                    </h4>
-                                    <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                                 <div class="cta">
-                                    <a href="service-single.html">
-                                    <span class="material-symbols-outlined">
-                                    call_made
-                                    </span>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
+            </a>
+         </section>
+         <!-- ==== / banner section end ==== -->
+         <!-- ==== overview section start ==== -->
+         <section class="tp-overview pt-120 pb-120 sticky-wrapper" id="scroll-to">
+            <div class="container">
+               <div class="row vertical-column-gap-lg">
+                  <div class="col-12 col-lg-5">
+                     <div class="tp-overview__content sticky-item">
+                        <h2 class="fw-7 text-secondary title-anim mb-30 mt-8">How Can We Help You?</h2>
+                        <p class="mt-8 cur-lg">Our cloud experts, data scientists, and IT staffing professionals work
+                           hand-in-hand to design, build, and optimize solutions that align with your business goals.
+                           From seamless cloud integration and AI-powered automation to finding the right tech talent,
+                           we help you scale smarter, reach more customers, and drive lasting growth.</p>
+                        <div class="mt-40">
+                           <a href="services.html" class="btn-line text-uppercase">SEE WHAT WE DO</a>
                         </div>
                      </div>
                   </div>
-
-
-
-                  <div class="row vertical-column-gap-md align-items-center pt-120">
-                     <div class="col-12 col-lg-6">
-                        <div class="tp-service__content">
-                           <h2 class="mt-8 title-anim text-secondary fw-7 mb-24 text-capitalize">About <span style="text-transform: uppercase;"> AVA</span> Cloud</h2>
-                           <p class="cur-lg">We're a team of young, qualified professionals passionate about leveraging cloud, data, and AI technologies—and connecting businesses with top IT talent. We're here to help you innovate and grow.</p>
-                           <p class="cur-lg mt-4">Our passionate team of young, qualified professionals offers a unique blend of expertise. We harness the power of cloud, data, and AI solutions while connecting you with top IT talent, all to fuel your business innovation and growth.</p>
-                          
-                        </div>
-                     </div>
-                     <div class="col-12 col-lg-6">
-                        <div class="tp-service__thumb fade-top fade-img">
-                           <a href="service-single.html" class="w-100">
-                           <img src="assets/images/service/three.png" class="w-100 mh-300 parallax-image" alt="Image">
-                           </a>
-                        </div>
-                     </div>
-                     <div class="col-md-12 pt-120">
-                        <div class="row g-4 mt-5">
-                     
-                           <!-- Cloud Services Card -->
-                           <div class="col-md-4">
-                              <div class="p-4 border rounded-4 shadow-sm h-100 bg-white hover-up transition">
-                                 <h4 class="fw-bold mb-3 text-secondary">Our Cloud Services</h4>
-                                 <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">• Scalable Cloud Infrastructure</li>
-                                    <li class="mb-2">• Cloud Migration & Optimization</li>
-                                    <li class="mb-2">• Managed Cloud Services</li>
-                                 </ul>
-                                 <a href="services.html" class="btn-line text-uppercase">
-                                    Explore All Cloud Services →
+                  <div class="col-12 col-lg-7 col-xxl-6 offset-xxl-1">
+                     <div class="tp-overview__items sticky-item">
+                        <div class="tp-overview-single appear-down">
+                           <div class="thumb">
+                              <img src="assets/images/overview/one.png" alt="Image">
+                           </div>
+                           <div class="wrapper">
+                              <div class="content">
+                                 <h4 class="mt-8 mb-12 fw-6 text-secondary">
+                                    <a href="service-single.html">Artificial Intelligence</a>
+                                 </h4>
+                                 <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                              <div class="cta">
+                                 <a href="service-single.html">
+                                    <span class="material-symbols-outlined">
+                                       call_made
+                                    </span>
                                  </a>
                               </div>
                            </div>
-                     
-                           <!-- IT Staffing Services Card -->
-                           <div class="col-md-4">
-                              <div class="p-4 border rounded-4 shadow-sm h-100 bg-white hover-up transition">
-                                 <h4 class="fw-bold mb-3 text-secondary">Expert IT Staffing Services</h4>
-                                 <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">• Staff Augmentation</li>
-                                    <li class="mb-2">• Managed Services</li>
-                                    <li class="mb-2">• Recruitment Process Outsourcing (RPO)</li>
-                                    <li class="mb-2">• Cloud Engineers</li>
-                                    <li class="mb-2">• Project Managers</li>
-                                 </ul>
-                                 <a href="services.html" class="btn-line text-uppercase">
-                                    Find Your IT Talent →
+                        </div>
+                        <div class="tp-overview-single appear-down">
+                           <div class="thumb">
+                              <img src="assets/images/overview/two.png" alt="Image">
+                           </div>
+                           <div class="wrapper">
+                              <div class="content">
+                                 <h4 class="mt-8 mb-12 fw-6 text-secondary">
+                                    <a href="service-single.html">Product Design</a>
+                                 </h4>
+                                 <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                              <div class="cta">
+                                 <a href="service-single.html">
+                                    <span class="material-symbols-outlined">
+                                       call_made
+                                    </span>
                                  </a>
                               </div>
                            </div>
-                     
-                           <!-- Data & AI Solutions Card -->
-                           <div class="col-md-4">
-                              <div class="p-4 border rounded-4 shadow-sm h-100 bg-white hover-up transition">
-                                 <h4 class="fw-bold mb-3 text-secondary">Data & AI Solutions</h4>
-                                 <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">• Data & AI Services</li>
-                                    <li class="mb-2">• Data & AI Strategy</li>
-                                    <li class="mb-2">• Data Governance & Management</li>
-                                    <li class="mb-2">• Data Engineering & Platforms</li>
-                                    <li class="mb-2">• AI & Intelligent Solutions</li>
-                                    <li class="mb-2">• Gen AI Consulting</li>
-                                 </ul>
-                                 <a href="services.html" class="btn-line text-uppercase">
-                                    Explore Data & AI Services →
+                        </div>
+                        <div class="tp-overview-single appear-down">
+                           <div class="thumb">
+                              <img src="assets/images/overview/three.png" alt="Image">
+                           </div>
+                           <div class="wrapper">
+                              <div class="content">
+                                 <h4 class="mt-8 mb-12 fw-6 text-secondary">
+                                    <a href="service-single.html">
+                                       Mobile Application
+                                       Development
+                                    </a>
+                                 </h4>
+                                 <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                              <div class="cta">
+                                 <a href="service-single.html">
+                                    <span class="material-symbols-outlined">
+                                       call_made
+                                    </span>
                                  </a>
                               </div>
                            </div>
-                     
+                        </div>
+                        <div class="tp-overview-single appear-down">
+                           <div class="thumb">
+                              <img src="assets/images/overview/four.png" alt="Image">
+                           </div>
+                           <div class="wrapper">
+                              <div class="content">
+                                 <h4 class="mt-8 mb-12 fw-6 text-secondary">
+                                    <a href="service-single.html">Web Application Development</a>
+                                 </h4>
+                                 <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                              <div class="cta">
+                                 <a href="service-single.html">
+                                    <span class="material-symbols-outlined">
+                                       call_made
+                                    </span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tp-overview-single appear-down">
+                           <div class="thumb">
+                              <img src="assets/images/overview/five.png" alt="Image">
+                           </div>
+                           <div class="wrapper">
+                              <div class="content">
+                                 <h4 class="mt-8 mb-12 fw-6 text-secondary">
+                                    <a href="service-single.html">Idea Evaluation</a>
+                                 </h4>
+                                 <p class="text-tertiary">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                              <div class="cta">
+                                 <a href="service-single.html">
+                                    <span class="material-symbols-outlined">
+                                       call_made
+                                    </span>
+                                 </a>
+                              </div>
+                           </div>
                         </div>
                      </div>
-                     
                   </div>
                </div>
-            </section>
-            <!-- ==== / overview section end ==== -->
-            <!-- ==== story section start ==== -->
-            <!-- <section class="tp-story pt-120 pb-120 bg-black sticky-wrapper fade-wrapper">
+
+
+
+               <div class="row vertical-column-gap-md align-items-center pt-120">
+                  <div class="col-12 col-lg-6">
+                     <div class="tp-service__content">
+                        <h2 class="mt-8 title-anim text-secondary fw-7 mb-24 text-capitalize">About <span
+                              style="text-transform: uppercase;"> AVA</span> Cloud</h2>
+                 
+                        <p class="cur-lg mt-4">Our passionate team of young, qualified professionals offers a unique
+                           blend of expertise. We harness the power of cloud, data, and AI solutions while connecting
+                           you with top IT talent, all to fuel your business innovation and growth.</p>
+
+                     </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                     <div class="tp-service__thumb fade-top fade-img">
+                        <a href="service-single.html" class="w-100">
+                           <img src="/assets/images/service/nine.jpg" class="w-100 mh-300 parallax-image" alt="Image">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-12 pt-120">
+                     <div class="row g-4 mt-5">
+
+                        <!-- Cloud Services Card -->
+                        <div class="col-md-4">
+                           <div class="p-4 border rounded-4 shadow-sm h-100 bg-white hover-up transition">
+                              <h4 class="fw-bold mb-3 text-secondary">Our Cloud Services</h4>
+                              <ul class="list-unstyled mb-4">
+                                 <li class="mb-2">• Scalable Cloud Infrastructure</li>
+                                 <li class="mb-2">• Cloud Migration & Optimization</li>
+                                 <li class="mb-2">• Managed Cloud Services</li>
+                              </ul>
+                              <a href="services.html" class="btn-line text-uppercase">
+                                 Explore All Cloud Services →
+                              </a>
+                           </div>
+                        </div>
+
+                        <!-- IT Staffing Services Card -->
+                        <div class="col-md-4">
+                           <div class="p-4 border rounded-4 shadow-sm h-100 bg-white hover-up transition">
+                              <h4 class="fw-bold mb-3 text-secondary">Expert IT Staffing Services</h4>
+                              <ul class="list-unstyled mb-4">
+                                 <li class="mb-2">• Staff Augmentation</li>
+                                 <li class="mb-2">• Managed Services</li>
+                                 <li class="mb-2">• Recruitment Process Outsourcing (RPO)</li>
+                                 <li class="mb-2">• Cloud Engineers</li>
+                                 <li class="mb-2">• Project Managers</li>
+                              </ul>
+                              <a href="services.html" class="btn-line text-uppercase">
+                                 Find Your IT Talent →
+                              </a>
+                           </div>
+                        </div>
+
+                        <!-- Data & AI Solutions Card -->
+                        <div class="col-md-4">
+                           <div class="p-4 border rounded-4 shadow-sm h-100 bg-white hover-up transition">
+                              <h4 class="fw-bold mb-3 text-secondary">Data & AI Solutions</h4>
+                              <ul class="list-unstyled mb-4">
+                                 <li class="mb-2">• Data & AI Services</li>
+                                 <li class="mb-2">• Data & AI Strategy</li>
+                                 <li class="mb-2">• Data Governance & Management</li>
+                                 <li class="mb-2">• Data Engineering & Platforms</li>
+                                 <li class="mb-2">• AI & Intelligent Solutions</li>
+                                 <li class="mb-2">• Gen AI Consulting</li>
+                              </ul>
+                              <a href="services.html" class="btn-line text-uppercase">
+                                 Explore Data & AI Services →
+                              </a>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <!-- ==== / overview section end ==== -->
+         <!-- ==== story section start ==== -->
+         <!-- <section class="tp-story pt-120 pb-120 bg-black sticky-wrapper fade-wrapper">
                <div class="container">
                   <div class="row vertical-column-gap-md">
                      <div class="col-12 col-lg-5">
@@ -561,171 +592,185 @@
                   </div>
                </div>
             </section> -->
-            <!-- ==== / story section end ==== -->
-            <!-- ==== testimonial section start ==== -->
-            <section class="pt-120 tp-testimonial">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-12">
-                        <div class="tp-testimonial-inner pb-120">
-                           <h2 class="fw-7 text-secondary mt-8 title-anim">What our clients say about us</h2>
-                           <div class="tp-testimonial-slider mt-60">
-                              <div class="tp-testimonial-single">
-                                 <div class="tp-testimonial__meta">
-                                    <div class="thumb">
-                                       <img src="assets/images/testimonial/avatar-one.png" alt="Image">
-                                    </div>
-                                    <div class="content">
-                                       <h5 class="fw-5 text-secondary mt-8">Maya R</h5>
-                                       <button class="review">
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       </button>
-                                    </div>
+         <!-- ==== / story section end ==== -->
+         <!-- ==== testimonial section start ==== -->
+         <section class="pt-120 tp-testimonial">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="tp-testimonial-inner pb-120">
+                        <h2 class="fw-7 text-secondary mt-8 title-anim">What our clients say about us</h2>
+                        <div class="tp-testimonial-slider mt-60">
+                           <div class="tp-testimonial-single">
+                              <div class="tp-testimonial__meta">
+                                 <div class="thumb">
+                                    <img src="assets/images/testimonial/avatar-one.png" alt="Image">
                                  </div>
-                                 <blockquote class="text-xl cur-lg mt-40">
-                                    <q>AVA Cloud transformed our entire infrastructure with a seamless cloud migration. Their team was knowledgeable, responsive, and genuinely invested in our success. We've seen a 40% boost in system performance since the switch!</q>
-                                 </blockquote>
-                              </div>
-                              <div class="tp-testimonial-single">
-                                 <div class="tp-testimonial__meta">
-                                    <div class="thumb">
-                                       <img src="assets/images/testimonial/avatar-two.png" alt="Image">
-                                    </div>
-                                    <div class="content">
-                                       <h5 class="fw-5 text-secondary mt-8">Jordan T</h5>
-                                        <button class="review">
+                                 <div class="content">
+                                    <h5 class="fw-5 text-secondary mt-8">Maya R</h5>
+                                    <button class="review">
                                        <i class="fa-solid fa-star"></i>
                                        <i class="fa-solid fa-star"></i>
                                        <i class="fa-solid fa-star"></i>
                                        <i class="fa-solid fa-star"></i>
                                        <i class="fa-solid fa-star"></i>
-                                       </button>
-                                    </div>
+                                    </button>
                                  </div>
-                                 <blockquote class="text-xl cur-lg mt-40">
-                                    <q>Hiring dedicated developers through AVA Cloud was a game-changer. We scaled our product team quickly without compromising on quality. The process was smooth, and the talent they provided was top-tier.</q>
-                                 </blockquote>
                               </div>
-                              <div class="tp-testimonial-single">
-                                 <div class="tp-testimonial__meta">
-                                    <div class="thumb">
-                                       <img src="assets/images/testimonial/avatar-three.png" alt="Image">
-                                    </div>
-                                    <div class="content">
-                                       <h5 class="fw-5 text-secondary mt-8">Aarav M</h5>
-                                        <button class="review">
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       </button>
-                                    </div>
-                                 </div>
-                                 <blockquote class="text-xl cur-lg mt-40">
-                                    <q>Their managed cloud services gave us the freedom to focus on our core business. We now have 24/7 support and peace of mind knowing our systems are always optimized and secure.</q>
-                                 </blockquote>
-                              </div>
-                              <div class="tp-testimonial-single">
-                                 <div class="tp-testimonial__meta">
-                                    <div class="thumb">
-                                       <img src="assets/images/testimonial/avatar-four.png" alt="Image">
-                                    </div>
-                                    <div class="content">
-                                       <h5 class="fw-5 text-secondary mt-8">Lena K</h5>
-                                        <button class="review">
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       </button>
-                                    </div>
-                                 </div>
-                                 <blockquote class="text-xl cur-lg mt-40">
-                                    <q>AVA Cloud didn’t just provide engineers—they became a true extension of our team. Their collaborative approach and technical expertise helped us deliver a critical project on time and under budget.</q>
-                                 </blockquote>
-                              </div>
-                              <div class="tp-testimonial-single">
-                                 <div class="tp-testimonial__meta">
-                                    <div class="thumb">
-                                       <img src="assets/images/testimonial/avatar-five.png" alt="Image">
-                                    </div>
-                                    <div class="content">
-                                       <h5 class="fw-5 text-secondary mt-8">Derrick W</h5>
-                                        <button class="review">
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       <i class="fa-solid fa-star"></i>
-                                       </button>
-                                    </div>
-                                 </div>
-                                 <blockquote class="text-xl cur-lg mt-40">
-                                    <q>From cloud consulting to staffing, AVA Cloud is our go-to partner. They bring innovation, agility, and real results to every engagement. Highly recommended</q>
-                                 </blockquote>
-                              </div>
+                              <blockquote class="text-xl cur-lg mt-40">
+                                 <q>AVA Cloud transformed our entire infrastructure with a seamless cloud migration.
+                                    Their team was knowledgeable, responsive, and genuinely invested in our success.
+                                    We've seen a 40% boost in system performance since the switch!</q>
+                              </blockquote>
                            </div>
-                           <div class="tp-testimonial-arrow">
-                              <button class="prev-testimonial" aria-label="previous testimonial">
-                              <span class="material-symbols-outlined">
-                              west
-                              </span>
-                              </button>
-                              <span class="current-slide">1</span>
-                              <span class="divider"></span>
-                              <span class="total-slide"></span>
-                              <button class="next-testimonial" aria-label="next testimonial">
-                              <span class="material-symbols-outlined">
-                              east
-                              </span>
-                              </button>
+                           <div class="tp-testimonial-single">
+                              <div class="tp-testimonial__meta">
+                                 <div class="thumb">
+                                    <img src="assets/images/testimonial/avatar-two.png" alt="Image">
+                                 </div>
+                                 <div class="content">
+                                    <h5 class="fw-5 text-secondary mt-8">Jordan T</h5>
+                                    <button class="review">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                              <blockquote class="text-xl cur-lg mt-40">
+                                 <q>Hiring dedicated developers through AVA Cloud was a game-changer. We scaled our
+                                    product team quickly without compromising on quality. The process was smooth, and
+                                    the talent they provided was top-tier.</q>
+                              </blockquote>
                            </div>
-                           <div class="tp-testimonial-pagination mt-60"></div>
+                           <div class="tp-testimonial-single">
+                              <div class="tp-testimonial__meta">
+                                 <div class="thumb">
+                                    <img src="assets/images/testimonial/avatar-three.png" alt="Image">
+                                 </div>
+                                 <div class="content">
+                                    <h5 class="fw-5 text-secondary mt-8">Aarav M</h5>
+                                    <button class="review">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                              <blockquote class="text-xl cur-lg mt-40">
+                                 <q>Their managed cloud services gave us the freedom to focus on our core business. We
+                                    now have 24/7 support and peace of mind knowing our systems are always optimized and
+                                    secure.</q>
+                              </blockquote>
+                           </div>
+                           <div class="tp-testimonial-single">
+                              <div class="tp-testimonial__meta">
+                                 <div class="thumb">
+                                    <img src="assets/images/testimonial/avatar-four.png" alt="Image">
+                                 </div>
+                                 <div class="content">
+                                    <h5 class="fw-5 text-secondary mt-8">Lena K</h5>
+                                    <button class="review">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                              <blockquote class="text-xl cur-lg mt-40">
+                                 <q>AVA Cloud didn’t just provide engineers—they became a true extension of our team.
+                                    Their collaborative approach and technical expertise helped us deliver a critical
+                                    project on time and under budget.</q>
+                              </blockquote>
+                           </div>
+                           <div class="tp-testimonial-single">
+                              <div class="tp-testimonial__meta">
+                                 <div class="thumb">
+                                    <img src="assets/images/testimonial/avatar-five.png" alt="Image">
+                                 </div>
+                                 <div class="content">
+                                    <h5 class="fw-5 text-secondary mt-8">Derrick W</h5>
+                                    <button class="review">
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                       <i class="fa-solid fa-star"></i>
+                                    </button>
+                                 </div>
+                              </div>
+                              <blockquote class="text-xl cur-lg mt-40">
+                                 <q>From cloud consulting to staffing, AVA Cloud is our go-to partner. They bring
+                                    innovation, agility, and real results to every engagement. Highly recommended</q>
+                              </blockquote>
+                           </div>
                         </div>
+                        <div class="tp-testimonial-arrow">
+                           <button class="prev-testimonial" aria-label="previous testimonial">
+                              <span class="material-symbols-outlined">
+                                 west
+                              </span>
+                           </button>
+                           <span class="current-slide">1</span>
+                           <span class="divider"></span>
+                           <span class="total-slide"></span>
+                           <button class="next-testimonial" aria-label="next testimonial">
+                              <span class="material-symbols-outlined">
+                                 east
+                              </span>
+                           </button>
+                        </div>
+                        <div class="tp-testimonial-pagination mt-60"></div>
                      </div>
                   </div>
                </div>
-            </section>
-            <!-- ==== / testimonial section end ==== -->
-            <!-- ==== service section start ==== -->
-            <section class="tp-service pt-120 pb-120">
-               <div class="container">
-                  <div class="row vertical-column-gap-md">
-                     <div class="col-12 col-lg-5">
-                        <div class="tp-service__thumb fade-img">
-                           <a href="service-single.html" class="w-100">
-                           <img src="assets/images/service/one.png" class="w-100 mh-300 parallax-image" alt="Image">
-                           </a>
-                        </div>
+            </div>
+         </section>
+         <!-- ==== / testimonial section end ==== -->
+         <!-- ==== service section start ==== -->
+         <section class="tp-service pt-120 pb-120">
+            <div class="container">
+               <div class="row vertical-column-gap-md">
+                  <div class="col-12 col-lg-5">
+                     <div class="tp-service__thumb fade-img">
+                        <a href="service-single.html" class="w-100">
+                           <img src="/assets/images/service/ten.jpg" class="w-100 mh-300 parallax-image" alt="Image">
+                        </a>
                      </div>
-                     <div class="col-12 col-lg-7 col-xl-6 offset-xl-1">
-                        <div class="tp-service__content">
-                           <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">We Empower Businesses with Cloud, Data, <span style="text-transform: uppercase;">AI & IT</span> Talent Solutions</h2>
-                           <p class="mb-3">Empowering Businesses Through Leading Cloud, Data, and AI Technologies, Supported by Expert Talent Services.</p>
-                           <div class="pl-100">
-                              <p class="cur-lg">Solve complex challenges and streamline operations with smart cloud services and skilled IT professionals. From scalable infrastructure to expert talent, we help you unlock the full potential of your business and free your team to focus on what truly matters—innovation and growth.</p>
-                              <div class="mt-60">
-                                 <a href="service-single.html" class="btn-anim btn-anim-light">
+                  </div>
+                  <div class="col-12 col-lg-7 col-xl-6 offset-xl-1">
+                     <div class="tp-service__content">
+                        <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">We Empower Businesses with
+                           Cloud, Data, <span style="text-transform: uppercase;">AI & IT</span> Talent Solutions</h2>
+                        <p class="mb-3">Empowering Businesses Through Leading Cloud, Data, and AI Technologies,
+                           Supported by Expert Talent Services.</p>
+                        <div class="pl-100">
+                           <p class="cur-lg">Solve complex challenges and streamline operations with smart cloud
+                              services and skilled IT professionals. From scalable infrastructure to expert talent, we
+                              help you unlock the full potential of your business and free your team to focus on what
+                              truly matters—innovation and growth.</p>
+                           <div class="mt-60">
+                              <a href="service-single.html" class="btn-anim btn-anim-light">
                                  Explore Us
                                  <i class="fa-solid fa-arrow-trend-up"></i>
                                  <span></span>
-                                 </a>
-                              </div>
+                              </a>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-            </section>
-            <!-- ==== / service section end ==== -->
-            <!-- ==== latest post section start ==== -->
-            <!-- <section class="tp-latest-post pt-120 pb-120 bg-quinary">
+            </div>
+         </section>
+         <!-- ==== / service section end ==== -->
+         <!-- ==== latest post section start ==== -->
+         <!-- <section class="tp-latest-post pt-120 pb-120 bg-quinary">
                <div class="container">
                   <div class="row vertical-column-gap align-items-center">
                      <div class="col-12 col-lg-7">
@@ -953,159 +998,127 @@
                   </div>
                </div>
             </section> -->
-            <!-- ==== / latest post section end ==== -->
-         </main>
-         <!-- ==== / main section end ==== -->
-         <!-- ==== footer start ==== -->
-         <footer class="footer position-relative overflow-x-clip">
-            <div class="container">
-               <div class="row vertical-column-gap-lg">
-                  <div class="col-12 col-lg-6 col-xxl-5">
-                     <div class="pt-120">
-                        <span class="text-xl d-block mt-8 text-white text-capitalize fm fw-5 cur-lg">Let Our Cloud, Data, AI & IT Experts Solve the Problems and Tackle the Challenges That Keep You From Leading the Future</span>
-                        <div class="mt-60 foot-group">
-                           <div class="anime">
-                              <span class="foot-fade"></span>
-                              <span class="foot-fade"></span>
-                              <span class="foot-fade"></span>
-                              <span class="foot-fade"></span>
-                              <span class="foot-fade"></span>
-                              <span class="foot-fade"></span>
-                           </div>
-                           <a href="contact-us.html" class="btn-anim">
+         <!-- ==== / latest post section end ==== -->
+      </main>
+      <!-- ==== / main section end ==== -->
+      <!-- ==== footer start ==== -->
+      <footer class="footer position-relative overflow-x-clip">
+         <div class="container">
+            <div class="row vertical-column-gap-lg">
+               <div class="col-12 col-lg-6 col-xxl-5">
+                  <div class="pt-120">
+                     <span class="text-xl d-block mt-8 text-white text-capitalize fm fw-5 cur-lg">Let Our Cloud, Data,
+                        AI & IT Experts Solve the Problems and Tackle the Challenges That Keep You From Leading the
+                        Future</span>
+                     <div class="mt-60 foot-group">
+                        <div class="anime">
+                           <span class="foot-fade"></span>
+                           <span class="foot-fade"></span>
+                           <span class="foot-fade"></span>
+                           <span class="foot-fade"></span>
+                           <span class="foot-fade"></span>
+                           <span class="foot-fade"></span>
+                        </div>
+                        <a href="contact-us.html" class="btn-anim">
                            Let's Talk
                            <i class="fa-solid fa-arrow-trend-up"></i>
                            <span></span>
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-12 col-lg-6 offset-xxl-1">
-                     <div class="footer__thumb">
-                        <img src="assets/images/footer/thumb.png" class="unset parallax-image" alt="Image">
+                        </a>
                      </div>
                   </div>
                </div>
-               <div class="row vertical-column-gap-lg pt-120">
-                  <div class="col-12 col-lg-6">
-                     <div>
-                        <h2 class="fm fw-7 text-white title-anim mt-8">We're Your Partner for Cloud, Data, and AI Innovation and Scalable Growth.
-                        </h2>
-                     </div>
-                  </div>
-                  <div class="col-12 col-lg-3 offset-lg-1">
-                     <ul class="mt-8">
-                        <li>
-                           <a href="about-us.html">About Us</a>
-                        </li>
-                        <li>
-                           <a href="services.html">It Service</a>
-                        </li>
-                        <li>
-                           <a href="career.html">Career</a>
-                        </li>
-                        <li>
-                           <a href="case-study.html">Case Studies</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-12 col-lg-2">
-                     <ul class="mt-8">
-                        <li>
-                           <a href="case-study.html">Resources</a>
-                        </li>
-                        <li>
-                           <a href="services.html">Our Services</a>
-                        </li>
-                        <li>
-                           <a href="blog.html">Blog</a>
-                        </li>
-                        <li>
-                           <a href="contact-us.html">Contact Us</a>
-                        </li>
-                     </ul>
+               <div class="col-12 col-lg-6 offset-xxl-1">
+                  <div class="footer__thumb">
+                     <img src="/assets/images/footer/thumb.png" class="unset parallax-image" alt="Image">
                   </div>
                </div>
-               <div class="row">
-                  <div class="col-12">
-                     <div class="footer__inner pt-120">
-                        <div class="row vertical-column-gap-lg">
-                           <div class="col-12 col-md-6 col-lg-4">
-                              <div class="footer__inner-single">
-                                 <div class="thumb">
-                                    <img src="assets/images/footer/location.png" alt="Image">
-                                 </div>
-                                 <div class="content">
-                                    <h5 class="mt-8 fm fw-6 text-white mb-24">Location</h5>
-                                    <p class="text-quinary">
-                                       <a href="https://goo.gl/maps/16KHwiUcctAojuLj8" target="_blank">
-                                          AVA CLOUD TECH LLC <br>
-                                          5940 ADAIR LN <br>
-                                          MCKINNEY TX 75070-3591      
-                                          
-                                       </a>
-                                    </p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-12 col-md-6 col-lg-4">
-                              <div class="footer__inner-single">
-                                 <div class="thumb">
-                                    <img src="assets/images/footer/phone.png" alt="Image">
-                                 </div>
-                                 <div class="content">
-                                    <h5 class="mt-8 fm fw-6 text-white mb-24">Phone</h5>
-                                    <p class="text-quinary mb-12">
-                                       <a href="tel:+15104029465">(USA) +1 510-402-9465</a>
-                                    </p>                                    
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-12 col-md-6 col-lg-4">
-                              <div class="footer__inner-single">
-                                 <div class="thumb">
-                                    <img src="assets/images/footer/gmail.png" alt="Image">
-                                 </div>
-                                 <div class="content">
-                                    <h5 class="mt-8 fm fw-6 text-white mb-24">Email</h5>
-                                    <p class="text-quinary mb-12 text-lowercase">
-                                       <a href="mailto:hr@avacloudtech.com">hr@avacloudtech.com</a>
-                                    </p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+            </div>
+            <div class="row vertical-column-gap-lg pt-120">
+               <div class="col-12 col-lg-6">
+                  <div>
+                     <h2 class="fm fw-7 text-white title-anim mt-8">We're Your Partner for Cloud, Data, and AI
+                        Innovation and Scalable Growth.
+                     </h2>
                   </div>
                </div>
-               <div class="row">
-                  <div class="col-12">
-                     <div class="footer-copyright">
-                        <div class="row align-items-center vertical-column-gap">
-                           <div class="col-12 col-lg-6">
-                              <div class="footer__copyright-text text-center text-lg-start">
-                                 <p class="text-quinary mt-8">
-                                    &copy;
-                                    <span id="copyrightYear"></span>
-                                    <a href="index.html" class="fw-6">AVA</a>
-                                    . All rights reserved
+               <div class="col-12 col-lg-3 offset-lg-1">
+                  <ul class="mt-8">
+                     <li>
+                        <a href="about-us.html">About Us</a>
+                     </li>
+                     <li>
+                        <a href="services.html">It Service</a>
+                     </li>
+                     <li>
+                        <a href="career.html">Career</a>
+                     </li>
+                     <li>
+                        <a href="case-study.html">Case Studies</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-12 col-lg-2">
+                  <ul class="mt-8">
+                     <li>
+                        <a href="case-study.html">Resources</a>
+                     </li>
+                     <li>
+                        <a href="services.html">Our Services</a>
+                     </li>
+                     <li>
+                        <a href="blog.html">Blog</a>
+                     </li>
+                     <li>
+                        <a href="contact-us.html">Contact Us</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="footer__inner pt-120">
+                     <div class="row vertical-column-gap-lg">
+                        <div class="col-12 col-md-6 col-lg-4">
+                           <div class="footer__inner-single">
+                              <div class="thumb">
+                                 <img src="assets/images/footer/location.png" alt="Image">
+                              </div>
+                              <div class="content">
+                                 <h5 class="mt-8 fm fw-6 text-white mb-24">Location</h5>
+                                 <p class="text-quinary">
+                                    <a href="https://goo.gl/maps/16KHwiUcctAojuLj8" target="_blank">
+                                       AVA CLOUD TECH LLC <br>
+                                       5940 ADAIR LN <br>
+                                       MCKINNEY TX 75070-3591
+
+                                    </a>
                                  </p>
                               </div>
                            </div>
-                           <div class="col-12 col-lg-6">
-                              <div class="social justify-content-center justify-content-lg-end">
-                                 <a href="https://www.twitter.com/" target="_blank">
-                                 <i class="fa-brands fa-twitter"></i>
-                                 </a>
-                                 <a href="https://www.instagram.com/" target="_blank">
-                                 <i class="fa-brands fa-instagram"></i>
-                                 </a>
-                                 <a href="https://www.facebook.com/" target="_blank">
-                                 <i class="fa-brands fa-facebook-messenger"></i>
-                                 </a>
-                                 <a href="https://www.youtube.com/" target="_blank">
-                                 <i class="fa-brands fa-youtube"></i>
-                                 </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                           <div class="footer__inner-single">
+                              <div class="thumb">
+                                 <img src="assets/images/footer/phone.png" alt="Image">
+                              </div>
+                              <div class="content">
+                                 <h5 class="mt-8 fm fw-6 text-white mb-24">Phone</h5>
+                                 <p class="text-quinary mb-12">
+                                    <a href="tel:+15104029465">(USA) +1 510-402-9465</a>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                           <div class="footer__inner-single">
+                              <div class="thumb">
+                                 <img src="assets/images/footer/gmail.png" alt="Image">
+                              </div>
+                              <div class="content">
+                                 <h5 class="mt-8 fm fw-6 text-white mb-24">Email</h5>
+                                 <p class="text-quinary mb-12 text-lowercase">
+                                    <a href="mailto:hr@avacloudtech.com">hr@avacloudtech.com</a>
+                                 </p>
                               </div>
                            </div>
                         </div>
@@ -1113,60 +1126,91 @@
                   </div>
                </div>
             </div>
-            <img src="assets/images/footer/arrow.png" alt="Image" class="arrow">
-         </footer>
-         <!-- ==== / footer end ==== -->
-         <!-- ==== mouse cursor drag start ==== -->
-         <div class="mouseCursor cursor-outer"></div>
-         <div class="mouseCursor cursor-inner">
-            <span>Drag</span>
+            <div class="row">
+               <div class="col-12">
+                  <div class="footer-copyright">
+                     <div class="row align-items-center vertical-column-gap">
+                        <div class="col-12 col-lg-6">
+                           <div class="footer__copyright-text text-center text-lg-start">
+                              <p class="text-quinary mt-8">
+                                 &copy;
+                                 <span id="copyrightYear"></span>
+                                 <a href="index.html" class="fw-6">AVA</a>
+                                 . All rights reserved
+                              </p>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                           <div class="social justify-content-center justify-content-lg-end">
+                              <a href="https://www.twitter.com/" target="_blank">
+                                 <i class="fa-brands fa-twitter"></i>
+                              </a>
+                              <a href="https://www.instagram.com/" target="_blank">
+                                 <i class="fa-brands fa-instagram"></i>
+                              </a>
+                              <a href="https://www.facebook.com/" target="_blank">
+                                 <i class="fa-brands fa-facebook-messenger"></i>
+                              </a>
+                              <a href="https://www.youtube.com/" target="_blank">
+                                 <i class="fa-brands fa-youtube"></i>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
-         <!-- ==== / mouse cursor drag end ==== -->
-         <!-- ==== scroll to top start ==== -->
-         <button class="progress-wrap" aria-label="scroll indicator" title="go to top">
-            <span></span>
-            <svg
-               class="progress-circle svg-content"
-               width="100%"
-               height="100%"
-               viewBox="-1 -1 102 102"
-               >
-               <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-            </svg>
-         </button>
-         <!-- ==== / scroll to top end ==== -->
+         <img src="assets/images/footer/arrow.png" alt="Image" class="arrow">
+      </footer>
+      <!-- ==== / footer end ==== -->
+      <!-- ==== mouse cursor drag start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner">
+         <span>Drag</span>
       </div>
-      <!-- ==== js dependencies start ==== -->
-      <!-- jquery -->
-      <script src="assets/js/jquery-3.7.1.min.js"></script>
-      <!-- bootstrap five js -->
-      <script src="assets/js/bootstrap.bundle.min.js"></script>
-      <!-- magnific popup js -->
-      <script src="assets/js/jquery.magnific-popup.min.js"></script>
-      <!-- slick js -->
-      <script src="assets/js/slick.min.js"></script>
-      <!-- appear js -->
-      <script src="assets/js/jquery.appear.js"></script>
-      <!-- odometer js -->
-      <script src="assets/js/jquery.odometer.min.js"></script>
-      <!-- image loaded js -->
-      <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-      <!-- isotope js -->
-      <script src="assets/js/isotope.pkgd.min.js"></script>
-      <!-- splittext js -->
-      <script src="assets/js/SplitText.min.js"></script>
-      <!-- lenis smooth scroll -->
-      <script src="assets/js/lenis.min.js"></script>
-      <!-- scrollto js -->
-      <script src="assets/js/ScrollToPlugin.min.js"></script>
-      <!-- scrolltrigger js -->
-      <script src="assets/js/ScrollTrigger.min.js"></script>
-      <!-- gsap js -->
-      <script src="assets/js/gsap.min.js"></script>
-      <!-- vanilla tilt js -->
-      <script src="assets/js/tilt.jquery.js"></script>
-      <!-- ==== / js dependencies end ==== -->
-      <!-- main js -->
-      <script src="assets/js/custom.js"></script>
-   </body>
+      <!-- ==== / mouse cursor drag end ==== -->
+      <!-- ==== scroll to top start ==== -->
+      <button class="progress-wrap" aria-label="scroll indicator" title="go to top">
+         <span></span>
+         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+         </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+   </div>
+   <!-- ==== js dependencies start ==== -->
+   <!-- jquery -->
+   <script src="assets/js/jquery-3.7.1.min.js"></script>
+   <!-- bootstrap five js -->
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <!-- magnific popup js -->
+   <script src="assets/js/jquery.magnific-popup.min.js"></script>
+   <!-- slick js -->
+   <script src="assets/js/slick.min.js"></script>
+   <!-- appear js -->
+   <script src="assets/js/jquery.appear.js"></script>
+   <!-- odometer js -->
+   <script src="assets/js/jquery.odometer.min.js"></script>
+   <!-- image loaded js -->
+   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+   <!-- isotope js -->
+   <script src="assets/js/isotope.pkgd.min.js"></script>
+   <!-- splittext js -->
+   <script src="assets/js/SplitText.min.js"></script>
+   <!-- lenis smooth scroll -->
+   <script src="assets/js/lenis.min.js"></script>
+   <!-- scrollto js -->
+   <script src="assets/js/ScrollToPlugin.min.js"></script>
+   <!-- scrolltrigger js -->
+   <script src="assets/js/ScrollTrigger.min.js"></script>
+   <!-- gsap js -->
+   <script src="assets/js/gsap.min.js"></script>
+   <!-- vanilla tilt js -->
+   <script src="assets/js/tilt.jquery.js"></script>
+   <!-- ==== / js dependencies end ==== -->
+   <!-- main js -->
+   <script src="assets/js/custom.js"></script>
+</body>
+
 </html>
