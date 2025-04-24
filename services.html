@@ -34,6 +34,7 @@
          .btn-anim.btn-anim-light{
             display: none;
          }
+      
       </style>
    </head>
    <body>
@@ -127,12 +128,12 @@
                            </li>
                            <li class="navbar__item navbar__item--has-children nav-fade">
                               <button aria-label="dropdown menu" class="navbar__dropdown-label">Our Services</button>
-                              <ul class="navbar__sub-menu">
+                             <ul class="navbar__sub-menu">
                                  <li>
-                                    <a href="services.html">Our Services</a>
+                                    <a href="services.html#cloud-services">Cloud Services</a>
                                  </li>
                                  <li>
-                                    <a href="service-single.html">Service Details</a>
+                                    <a href="services.html#data-ai-solutions">Data & AI Solutions</a>
                                  </li>
                               </ul>
                            </li>
@@ -219,7 +220,7 @@
                         <div class="service-banner__content text-center">
                            <h2 class="mt-8 text-xxl text-white title-anim fw-7 mb-30">The End-to-End Cloud & IT Talent Partner You Need</h2>
                            <p class="text-white cur-lg"> Empower your business with scalable cloud solutions and top-tier IT professionals—from strategy to execution, we've got the expertise you need to grow.</p>
-                           <div class="mt-60 text-center">
+                           <div class="mt-60 text-center" style="visibility: hidden;">
                               <a href="services.html" class="alter-btn btn-anim">
                               Get
                               <i class="fa-solid fa-arrow-trend-up"></i>
@@ -267,14 +268,14 @@
             <!-- ==== / banner end ==== -->
             <!-- ==== service section start ==== -->
             <section class="tp-service pt-120 fade-wrapper" id="scroll-to">
-               <div class="container">
-                  <div class="row">
+               <div class="container" id="cloud-services">
+                  <div class="row" >
                      <div class="col-12">
                         <div class="service-hr pb-120">
                            <div class="row vertical-column-gap-md">
                               <div class="col-12 col-lg-7">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">01</span>
+                                    <span class="op-text mb-40 mt-8 d-none">01</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">Scalable Cloud Infrastructure</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg"> Future-proof your operations with a flexible cloud foundation built to adapt and grow with your business. Whether you're a startup or an enterprise, we help you scale with cost-effective, secure, and high-performing infrastructure—so you're always ready for what's next.</p>
@@ -312,7 +313,7 @@
                               </div>
                               <div class="col-12 col-lg-7 offset-xxl-1">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">02</span>
+                                    <span class="op-text mb-40 mt-8 d-none">02</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">Cloud Migration & Optimization</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg"> Ready to move to the cloud? We make your transition seamless. Our team handles everything—from assessing your existing systems to migrating and fine-tuning your environment for speed, security, and reliability. Boost performance while reducing downtime and costs.</p>
@@ -336,7 +337,7 @@
                            <div class="row vertical-column-gap-md">
                               <div class="col-12 col-lg-7">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">03</span>
+                                    <span class="op-text mb-40 mt-8 d-none">03</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">
                                        Managed Cloud Services
                                     </h2>
@@ -363,7 +364,9 @@
                         </div>
                      </div>
                   </div>
-                  <div class="row">
+
+
+                  <!-- <div class="row">
                      <div class="col-12">
                         <div class="service-hr pt-120 pb-120">
                            <div class="row vertical-column-gap-md">
@@ -376,7 +379,7 @@
                               </div>
                               <div class="col-12 col-lg-7 offset-xxl-1">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">04</span>
+                                    <span class="op-text mb-40 mt-8 d-none">04</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">Dedicated Developers</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg"> Need to move fast? Access our pool of experienced developers skilled in the latest tech stacks. Whether it’s a short-term sprint or long-term support, our talent integrates seamlessly into your team to accelerate development without the hiring hassle.</p>
@@ -400,7 +403,7 @@
                            <div class="row vertical-column-gap-md">
                               <div class="col-12 col-lg-7">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">05</span>
+                                    <span class="op-text mb-40 mt-8 d-none">05</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">Cloud Engineers</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg"> Bring in cloud specialists who get it right the first time. Our engineers architect, deploy, and manage cloud infrastructure that aligns with your goals—ensuring performance, scalability, and security from day one.</p>
@@ -425,13 +428,6 @@
                         </div>
                      </div>
                   </div>
-
-
-
-
-
-
-
                   <div class="row">
                      <div class="col-12">
                         <div class="service-hr pt-120 pb-120">
@@ -445,7 +441,7 @@
                               </div>
                               <div class="col-12 col-lg-7">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">06</span>
+                                    <span class="op-text mb-40 mt-8 d-none">06</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">Project Managers</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg">Your projects deserve direction, clarity, and momentum. Our seasoned PMs keep teams aligned, stakeholders informed, and deadlines on track—so your initiatives launch smoothly and deliver results, every time.</p>
@@ -463,14 +459,16 @@
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </div> -->
+
+<!-- 
                   <div class="row">
                      <div class="col-12">
                         <div class="service-hr pt-120 pb-120">
                            <div class="row vertical-column-gap-md">
                               <div class="col-12 col-lg-7">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">07</span>
+                                    <span class="op-text mb-40 mt-8 d-none">07</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize"> Data & AI Strategy</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg">  Lay the groundwork for innovation with a data and AI roadmap tailored to your business goals. From uncovering insights to enabling smart automation, we help you build a strong strategic foundation for growth.</p>
@@ -494,8 +492,10 @@
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="row">
+                  </div> -->
+
+                  
+                  <div class="row" id="data-ai-solutions">
                      <div class="col-12">
                         <div class="service-hr pt-120 pb-120">
                            <div class="row vertical-column-gap-md">
@@ -506,9 +506,9 @@
                                     </a>
                                  </div>
                               </div>
-                              <div class="col-12 col-lg-7">
+                              <div class="col-12 col-lg-7 p-md-5">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">08</span>
+                                    <span class="op-text mb-40 mt-8 d-none">08</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">  Data Governance & Management</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg"> Trust your data. We help you put policies and systems in place to ensure data quality, compliance, and responsible usage—so your decisions are always backed by clean, reliable data.</p>
@@ -534,7 +534,7 @@
                            <div class="row vertical-column-gap-md">
                               <div class="col-12 col-lg-7">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">09</span>
+                                    <span class="op-text mb-40 mt-8 d-none">09</span>
                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">  Data Engineering & Platforms</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg">  Modernize your data infrastructure with scalable platforms and efficient pipelines. Our engineers design, build, and optimize environments that unlock the full potential of your data.</p>
@@ -570,10 +570,10 @@
                                     </a>
                                  </div>
                               </div>
-                              <div class="col-12 col-lg-7">
+                              <div class="col-12 col-lg-7 p-md-5">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">10</span>
-                                    <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">  AI & Intelligent Solutions</h2>
+                                    <span class="op-text mb-40 mt-8 d-none">10</span>
+                                     <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">  <span style="text-transform: uppercase;">AI</span> & Intelligent Solutions</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg"> Bring intelligence into your business processes. From automation to advanced analytics, we design AI-powered solutions that deliver measurable impact and give you a competitive edge.</p>
                                        <div class="mt-60">
@@ -597,8 +597,8 @@
                            <div class="row vertical-column-gap-md">
                               <div class="col-12 col-lg-7">
                                  <div class="tp-service__content">
-                                    <span class="op-text mb-40 mt-8">11</span>
-                                    <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">  Gen AI Consulting</h2>
+                                    <span class="op-text mb-40 mt-8 d-none">11</span>
+                                    <h2 class="mt-8 title-anim text-secondary fw-7 mb-30 text-capitalize">  Gen  <span style="text-transform: uppercase;">AI</span> Consulting</h2>
                                     <div class="pl-100">
                                        <p class="cur-lg"> Tap into the power of Generative AI with expert guidance. Whether you're just exploring or ready to scale, we help you navigate strategy, ethics, and implementation to unlock real business value.</p>
                                        <div class="mt-60">
@@ -645,7 +645,7 @@
                            </a>
                         </div>
                      </div>
-                     <div class="col-12 col-lg-6">
+                     <div class="col-12 col-lg-6 p-md-5">
                         <div class="tp-service__content">
                            <h3 class="mt-8 title-anim text-secondary fw-7 mb-24 text-capitalize">Our Core Solutions</h3>
                            <p class="cur-lg mb-32">Founded by a team of tech enthusiasts, AVA Cloud was born from the desire to bridge the gap between cutting-edge cloud technology, intelligent data solutions, and skilled IT professionals. We empower businesses with the right tools and talent to thrive in today’s digital world.</p>
@@ -678,7 +678,7 @@
                         <!-- Content Column -->
                         <div class="col-12 col-lg-6">
                            <div class="tp-service__content">
-                              <h3 class="mt-8 title-anim text-secondary fw-7 mb-24 text-capitalize">Why Choose AVA Cloud</h3>
+                              <h3 class="mt-8 title-anim text-secondary fw-7 mb-24 text-capitalize">Why Choose  <span style="text-transform: uppercase;">AVA</span> Cloud</h3>
                        
                               
                               <div class="row mt-4">
@@ -736,7 +736,7 @@
                         </div>
                      
                         <!-- Content Column -->
-                        <div class="col-12 col-lg-6">
+                        <div class="col-12 col-lg-6 p-md-5">
                            <div class="tp-service__content">
                               <h3 class="mt-8 title-anim text-secondary fw-7 mb-24 text-capitalize">How We Work</h3>
               
@@ -1062,7 +1062,7 @@
                <div class="row vertical-column-gap-lg pt-120">
                   <div class="col-12 col-lg-6">
                      <div>
-                        <h2 class="fm fw-7 text-white title-anim mt-8">We're Your Partner for Cloud, Data, and AI Innovation and Scalable Growth.
+                        <h2 class="fm fw-7 text-white title-anim mt-8">We're Your Partner for Cloud, Data,  <span style="text-transform: uppercase;">AI</span> Innovation and Scalable Growth.
                         </h2>
                      </div>
                   </div>
