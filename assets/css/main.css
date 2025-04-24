@@ -858,9 +858,13 @@ span {
 }
 
 .btn-anim {
-  width: 170px;
+  /* width: 170px;
   min-width: 170px;
-  height: 170px;
+  height: 170px; */
+
+  width: 150px;
+  min-width: 150px;
+  height: 151px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -3483,4 +3487,20 @@ span {
 }
 .tp-banner{
   background-image: none !important;
+}
+
+
+
+/* newly added css */
+.serviceText p{
+  font-size: 16px;
+}
+.serviceText2 p{
+  font-size: 16px;
+  line-height: 25px;
+}
+@media screen and (max-width:575px){
+  .vertical-column-gap-lg {
+    row-gap: 30px;
+}
 }
