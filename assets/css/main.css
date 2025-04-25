@@ -122,6 +122,10 @@ body {
   min-height: 100vh;
   text-transform: capitalize;
 }
+.footer p{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
 body::-webkit-scrollbar {
   width: 5px;
 }
