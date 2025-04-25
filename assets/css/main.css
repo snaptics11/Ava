@@ -1491,7 +1491,7 @@ span {
   background-color: var(--quaternary-color);
 }
 .offcanvas-nav .offcanvas-menu::before {
-  content: "Explore Pages";
+  content: "Explore AVA";
   position: absolute;
   top: 20%;
   left: 10%;
