@@ -3515,4 +3515,10 @@ span {
   .vertical-column-gap-lg {
     row-gap: 30px;
 }
+.mobilePadding{
+  padding-top: 60px !important;
+}
+.vertical-column-gap-md {
+  justify-content: center;
+}
 }
